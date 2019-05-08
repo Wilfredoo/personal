@@ -21,13 +21,16 @@ button {
   width: 5%;
   height: 5%;
   /* margin-bottom: 0px; */
-  margin-left: 81%;
+  right: 10px;
   margin-top: -1.5%;
   font-size: 45px;
-  position: relative;
+  position: absolute;
 }
-
 
 .workArea {
   font-size: 30px;
+}
+
+.link {
+  color: red;
 }

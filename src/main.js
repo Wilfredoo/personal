@@ -1,77 +1,94 @@
-import React from 'react'
+import React from "react";
 import { About } from "./about.js";
-import { Work } from "./work.js";
+import Work from "./work.js";
 import { Contact } from "./contact.js";
+import Modal from "./modal.js";
+import Code from "./workcode.js";
 
 export class Main extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-              showAbout: false,
-              showWork: false,
-              showContact: false
-            };
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      showAbout: false,
+      showContact: false,
+      modalid: ""
+    };
+    this.handleClose = this.handleClose.bind(this);
+    this.setModal = this.setModal.bind(this);
+  }
 
-    handleClickAbout() {
-        this.setState({
-          showAbout: true
-        });
+  componentDidMount() {
+    console.log("Main component happens");
+  }
+
+  setModal(modalid) {
+    console.log("Main - setModal before");
+    this.setState(
+      {
+        modalid: modalid
+      },
+      () => {
+        console.log("Main - state in setModal: ", this.state);
       }
+    );
+  }
 
-      hideAbout() {
-        this.setState({ showAbout: false });
-      }
+  handleClose() {
+    this.setState({
+      modalid: ""
+    });
+  }
 
-      handleClickWork() {
-          this.setState({
-            showWork: true
-          });
-        }
+  handleClickAbout() {
+    this.setState({
+      showAbout: true
+    });
+  }
 
-        hideWork() {
-          this.setState({ showWork: false });
-        }
+  hideAbout() {
+    this.setState({ showAbout: false });
+  }
 
-        handleClickContact() {
-            this.setState({
-              showContact: true
-            });
-          }
+  hideWork() {
+    this.setState({ showWork: false });
+  }
 
-          hideContact() {
-            this.setState({ showContact: false });
-          }
+  handleClickContact() {
+    this.setState({
+      showContact: true
+    });
+  }
 
+  hideContact() {
+    this.setState({ showContact: false });
+  }
 
-    render() {
-          return (
-            <div className="bg">
-                <h1 className="mainTitle">Wilfredo Casas</h1>
-                <a onClick={e => this.handleClickAbout()} href="#">
-              About me
-            </a>
-            <br />
-            <a onClick={e => this.handleClickWork()} href="#">
+  render() {
+    return (
+      <div className="bg">
+        <h1 className="mainTitle">Wilfredo Casas</h1>
+        <a onClick={e => this.handleClickAbout()} href="#">
+          About me
+        </a>
+        <br />
+        <a onClick={e => this.setModal("Work")} href="#">
           My work
         </a>
         <br />
         <a onClick={e => this.handleClickContact()} href="#">
-      Contact
-    </a>
+          Contact
+        </a>
 
-
-                {this.state.showAbout && (
-                          <About close={e => this.hideAbout()} />
-                        )}
-
-                        {this.state.showWork && (
-                                  <Work close={e => this.hideWork()} />
-                                )}
-                                {this.state.showContact && (
-                                          <Contact close={e => this.hideContact()} />
-                                        )}
-            </div>
-        );
-    }
+        {this.state.showAbout && <About close={e => this.hideAbout()} />}
+        {this.state.showContact && <Contact close={e => this.hideContact()} />}
+        {this.state.modalid != "" && (
+          <Modal
+            modalid={this.state.modalid}
+            close={this.handleClose}
+            setModal={this.setModal}
+          />
+        )}
+      </div>
+    );
+  }
 }

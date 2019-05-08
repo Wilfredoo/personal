@@ -6,8 +6,6 @@ export class Contact extends React.Component {
     this.state = {};
   }
 
-
-
   render() {
     return (
       <div className="modal">

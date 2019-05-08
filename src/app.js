@@ -4,6 +4,7 @@ import {Main} from './main.js';
 import {BrowserRouter, Route} from 'react-router-dom'
 import ReactGA from 'react-ga';
 
+
 function initializeReactGA() {
     ReactGA.initialize('UA-129656531-1');
     ReactGA.pageview('/homepage');
