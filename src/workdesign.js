@@ -21,6 +21,9 @@ export default class Design extends React.Component {
   render() {
     return (
       <div className="workArea">
+        <button onClick={this.props.back} className="back">
+          <i className="fa fa-close" />
+        </button>
         <h3> DESIGN</h3>
         <h4>Guantes la Pepa</h4>
         <p>
@@ -36,7 +39,21 @@ export default class Design extends React.Component {
           >
             this{" "}
           </span>
-          {this.state.showPhoto3 ? <img src="design1.png" /> : true}
+          {this.state.showPhoto1 ? <img src="./design1.jpg" /> : true}
+          {this.state.showPhoto1 ? (
+            <button
+              onClick={() =>
+                this.setState({
+                  showPhoto1: !this.state.showPhoto1
+                })
+              }
+              className="closephotobutton"
+            >
+              <i className="fa fa-close" />
+            </button>
+          ) : (
+            true
+          )}
         </p>
         <h4>
           <a href="http://colibriapp.de/" target="_blank">

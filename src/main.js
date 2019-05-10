@@ -15,6 +15,7 @@ export class Main extends React.Component {
     };
     this.handleClose = this.handleClose.bind(this);
     this.setModal = this.setModal.bind(this);
+    this.handleBack = this.handleBack.bind(this);
   }
 
   componentDidMount() {
@@ -36,6 +37,12 @@ export class Main extends React.Component {
   handleClose() {
     this.setState({
       modalid: ""
+    });
+  }
+
+  handleBack() {
+    this.setState({
+      modalid: "Work"
     });
   }
 
@@ -86,6 +93,7 @@ export class Main extends React.Component {
             modalid={this.state.modalid}
             close={this.handleClose}
             setModal={this.setModal}
+            back={this.handleBack}
           />
         )}
       </div>

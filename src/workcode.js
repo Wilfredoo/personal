@@ -25,6 +25,9 @@ export default class Code extends React.Component {
   render() {
     return (
       <div className="workArea">
+        <button onClick={this.props.back} className="back">
+          <i className="fa fa-close" />
+        </button>
         <h3>
           <a href="https://github.com/Wilfredoo" target="_blank">
             CODE

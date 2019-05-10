@@ -22,11 +22,13 @@ export default class Modal extends React.Component {
         <button onClick={this.props.close} className="btn">
           <i className="fa fa-close" />
         </button>
-        {this.props.modalid == "Code" && <Code />}
-        {this.props.modalid == "Copy" && <Copy />}
-        {this.props.modalid == "QA" && <QA />}
-        {this.props.modalid == "Growth" && <Growth />}
-        {this.props.modalid == "Design" && <Design />}
+        {this.props.modalid == "Code" && <Code back={this.props.back} />}
+        {this.props.modalid == "Copy" && <Copy back={this.props.back} />}
+        {this.props.modalid == "QA" && <QA back={this.props.back} />}
+        {this.props.modalid == "Growth" && (
+          <Growth back={this.props.back} closePhoto={this.props.closePhoto} />
+        )}
+        {this.props.modalid == "Design" && <Design back={this.props.back} />}
         {this.props.modalid == "Work" && (
           <Work setModal={this.props.setModal} />
         )}

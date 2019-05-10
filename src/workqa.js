@@ -21,6 +21,9 @@ export default class QA extends React.Component {
   render() {
     return (
       <div className="workArea">
+        <button onClick={this.props.back} className="back">
+          <i className="fa fa-close" />
+        </button>
         <h3>QUALITY ASSURANCE</h3>
         <h4>
           <a href="https://www.branchingminds.com/" target="_blank">

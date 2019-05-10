@@ -29,10 +29,13 @@ export default class Growth extends React.Component {
   render() {
     return (
       <div className="workArea">
-        <h3> GROWTH </h3>
+        <button onClick={this.props.back} className="back">
+          <i className="fa fa-close" />
+        </button>
 
+        <h3> GROWTH </h3>
         <br />
-        {this.state.isVisible ? <img src="./forest.png" /> : true}
+
         <h4>
           <a href="http://jobdirecto.com/" target="_blank">
             Jobdirecto
@@ -50,7 +53,25 @@ export default class Growth extends React.Component {
           >
             thousands of people{" "}
           </span>
-          {this.state.showPhoto1 ? <img src="./growth1.png" /> : true}
+          {this.state.showPhoto1 ? (
+            <img className="photo" src="./growth1.png" />
+          ) : (
+            true
+          )}
+          {this.state.showPhoto1 ? (
+            <button
+              onClick={() =>
+                this.setState({
+                  showPhoto1: !this.state.showPhoto1
+                })
+              }
+              className="closephotobutton"
+            >
+              <i className="fa fa-close" />
+            </button>
+          ) : (
+            true
+          )}
           have visited to find jobs and dozens of restaurants have used it to
           find staff. Not a single euro was ever used in advertisement. Lots of
           work in facebook groups and email marketing was necessary though. At
@@ -79,9 +100,27 @@ export default class Growth extends React.Component {
           >
             doing dating jokes on stage{" "}
           </span>
-          {this.state.showPhoto2 ? <img src="./growth2.jpg" /> : true} and
-          inviting people in for the app. This was fun (for me) but inefficient.
-          Then I went to other dating apps and{" "}
+          {this.state.showPhoto2 ? (
+            <img className="photo" src="./growth2.jpg" />
+          ) : (
+            true
+          )}
+          {this.state.showPhoto2 ? (
+            <button
+              onClick={() =>
+                this.setState({
+                  showPhoto2: !this.state.showPhoto2
+                })
+              }
+              className="closephotobutton"
+            >
+              <i className="fa fa-close" />
+            </button>
+          ) : (
+            true
+          )}{" "}
+          and inviting people in for the app. This was fun (for me) but
+          inefficient. Then I went to other dating apps and{" "}
           <span
             className="link"
             onClick={() =>
@@ -92,8 +131,26 @@ export default class Growth extends React.Component {
           >
             invited people to test the app{" "}
           </span>
-          {this.state.showPhoto3 ? <img src="growth3.png" /> : true}. This
-          worked better and got around 150 people to sign in for the app.
+          {this.state.showPhoto3 ? (
+            <img className="photo" src="growth3.png" />
+          ) : (
+            true
+          )}
+          {this.state.showPhoto3 ? (
+            <button
+              onClick={() =>
+                this.setState({
+                  showPhoto3: !this.state.showPhoto3
+                })
+              }
+              className="closephotobutton"
+            >
+              <i className="fa fa-close" />
+            </button>
+          ) : (
+            true
+          )}
+          . This worked better and got around 150 people to sign in for the app.
         </p>
         <h4>
           <a href="https://www.facebook.com/Aprueba.EVA.upc/" target="_blank">

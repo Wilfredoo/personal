@@ -21,6 +21,9 @@ export default class Copy extends React.Component {
   render() {
     return (
       <div className="workArea">
+        <button onClick={this.props.back} className="back">
+          <i className="fa fa-close" />
+        </button>
         <h3> COPYWRITING</h3>
         <p>
           This is my strongest area, as I have written copy for landing pages,
@@ -36,9 +39,24 @@ export default class Copy extends React.Component {
           >
             two interviews{" "}
           </span>
-          {this.state.showPhoto3 ? <img src="copy2.png" /> : true} with two
-          companies in Berlin (disclaimer: I didn't end up working with them).
-          When it comes to creative and strategic writing, I know my ship.
+          {this.state.showPhoto3 ? <img src="copy2.png" /> : true}
+          {this.state.showPhoto3 ? (
+            <button
+              onClick={() =>
+                this.setState({
+                  showPhoto3: !this.state.showPhoto3
+                })
+              }
+              className="closephotobutton"
+            >
+              <i className="fa fa-close" />
+            </button>
+          ) : (
+            true
+          )}{" "}
+          with two companies in Berlin (disclaimer: I didn't end up working with
+          them). When it comes to creative and strategic writing, I know my
+          ship.
         </p>
       </div>
     );
