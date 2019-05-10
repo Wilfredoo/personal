@@ -1,43 +1,74 @@
 import React from "react";
 
-
-
 export default class Design extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      isVisible: false,
+      showPhoto1: false,
+      showPhoto2: false,
+      showPhoto3: false,
+      showPhoto4: false,
+      showPhoto5: false,
+      showPhoto6: false,
+      showPhoto7: false,
+      showPhoto8: false,
+      showPhoto9: false,
+      showPhoto10: false
+    };
   }
 
   render() {
     return (
-        <div className="workArea">
-          <h3>  DESIGN</h3>
-          <h4 className="link" onClick={() => this.setState({
-            showPhoto1: !this.state.showPhoto1
-          })}>
-          Guantes la Pepa </h4>
-            <p>I guess the first thing I ever designed were these longboarding gloves for Guantes la Pepa. It started as <span className="link" onClick={() => this.setState({
-              showPhoto1: !this.state.showPhoto1
-            })}>
-            this </span> and through lots of prototyping and testing it became <span className="link" onClick={() => this.setState({
-              showPhoto1: !this.state.showPhoto1
-            })}>
-            this </span>.</p>
-            <h4 className="link" onClick={() => this.setState({
-              showPhoto1: !this.state.showPhoto1
-            })}>
-            Waiting list for Colibri </h4>
-            <p>One of my most recent projects was to design this waiting list* to get people to sign in for our dating app Colibri. It wasnt easy but it was certainly fun!</p>
-            <h4 className="link" onClick={() => this.setState({
-              showPhoto1: !this.state.showPhoto1
-            })}>
-            JobDirecto </h4>
-            <p>I designed a complex prototype that people didnt use. It was fancy but it was crap. Then I designed this <span className="link" onClick={() => this.setState({
-              showPhoto1: !this.state.showPhoto1
-            })}>
-            super simplistic job board </span>* that people loved. Oh, the world...</p>
-            <h4>And of course... this personal site. Hopefully you dont find it so crappy!</h4>
-          </div>
+      <div className="workArea">
+        <h3> DESIGN</h3>
+        <h4>Guantes la Pepa</h4>
+        <p>
+          I guess the first thing I ever designed were these longboarding gloves
+          for Guantes la Pepa. After much prototyping and testing it became{" "}
+          <span
+            className="link"
+            onClick={() =>
+              this.setState({
+                showPhoto1: !this.state.showPhoto1
+              })
+            }
+          >
+            this{" "}
+          </span>
+          {this.state.showPhoto3 ? <img src="design1.png" /> : true}
+        </p>
+        <h4>
+          <a href="http://colibriapp.de/" target="_blank">
+            Waitlist for Colibri
+          </a>
+        </h4>
+        <p>
+          One of my most recent projects was to design{" "}
+          <a href="http://colibriapp.de/" target="_blank">
+            this waitlist
+          </a>{" "}
+          to get people to sign in for our dating app Colibri. It wasnt easy but
+          it was certainly fun!
+        </p>
+        <h4>
+          <a href="http://jobdirecto.com/" target="_blank">
+            JobDirecto
+          </a>
+        </h4>
+        <p>
+          I designed a complex prototype that people didnt use. It was fancy but
+          it was crap. Then I designed this{" "}
+          <a href="http://jobdirecto.com/" target="_blank">
+            simplistic job board
+          </a>{" "}
+          * that people loved. Oh, the world...
+        </p>
+        <h4>
+          And of course... this personal site. Hopefully you dont find it so
+          crappy!
+        </h4>
+      </div>
     );
   }
 }

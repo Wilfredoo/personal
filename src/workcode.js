@@ -3,7 +3,19 @@ import React from "react";
 export default class Code extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      isVisible: false,
+      showPhoto1: false,
+      showPhoto2: false,
+      showPhoto3: false,
+      showPhoto4: false,
+      showPhoto5: false,
+      showPhoto6: false,
+      showPhoto7: false,
+      showPhoto8: false,
+      showPhoto9: false,
+      showPhoto10: false
+    };
   }
 
   componentDidMount() {
@@ -54,7 +66,8 @@ export default class Code extends React.Component {
         </h4>
         <p>repo here*</p>
         <h4> References:</h4>
-        ivana@spiced.com kristian@hamilton.com jon@poischen.com
+        <p>kristian@hamilton.com </p>
+        <p>amber@codebar.com </p>
       </div>
     );
   }
