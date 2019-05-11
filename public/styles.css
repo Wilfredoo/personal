@@ -3,13 +3,17 @@ body {
   margin-left: 10%;
 }
 
+#work,
+#contact,
+#about,
+.workArea {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 button {
   height: 5%;
   width: 5%;
-}
-
-#dummytext {
-  z-index: 2;
 }
 
 .modal {
@@ -20,6 +24,21 @@ button {
   top: 50%;
   left: 50%;
   background: white;
+  border-style: solid;
+  border-color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
 }
 
 .photo {
@@ -33,17 +52,37 @@ button {
 }
 
 .btn {
-  width: 5%;
-  height: 5%;
+  width: 100px;
+  height: 80px;
   /* margin-bottom: 0px; */
-  right: 10px;
-  margin-top: -1.5%;
+  right: -10px;
+  top: -10px;
+  /* margin-top: 2%; */
+  /* margin-right: 5%; */
+
   font-size: 45px;
   position: absolute;
+  z-index: 2;
+}
+
+#extradiv {
+  background-color: white;
+  height: 100%;
+  width: 20px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .back {
+  width: 100px;
+  height: 80px;
+  font-size: 45px;
+
   background-color: pink;
+  margin-top: 2%;
+  position: relative;
+  /* margin-left: 0%; */
 }
 
 .closephotobutton {
@@ -58,8 +97,22 @@ button {
 
 .workArea {
   font-size: 30px;
+  position: fixed;
+
+  width: 95%;
+  height: 99.9%;
+  -webkit-scrollbarwidth: 0px -webkit-scrollbar-track-piece;
+  background-color: transparent;
+  -webkit-border-radius: 6px;
+  overflow-y: scroll;
+}
+
+.workContent {
+  padding-top: 50px;
+  padding-right: 5%;
 }
 
 .link {
   color: red;
+  font-style: ;
 }

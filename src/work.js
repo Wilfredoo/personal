@@ -12,7 +12,8 @@ export default class Work extends React.Component {
 
   render() {
     return (
-      <div id="about">
+      <div id="work">
+        <h2>My work</h2>
         <a onClick={e => this.props.setModal("Growth")} href="#">
           Growth
         </a>

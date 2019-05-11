@@ -28,49 +28,51 @@ export default class Code extends React.Component {
         <button onClick={this.props.back} className="back">
           <i className="fa fa-close" />
         </button>
-        <h3>
-          <a href="https://github.com/Wilfredoo" target="_blank">
-            CODE
-          </a>
-        </h3>
-        <h4>
-          <a href="https://github.com/Wilfredoo/JobDirecto" target="_blank">
-            JobDirecto
-          </a>
-        </h4>
-        <p>
-          For my final project at the code bootcamp I went to, I created
-          JobDirecto, a job board for hispanic immigrants in the US. And thats
-          how I fell in love with React.
-        </p>
-        <h4>
-          <a href="https://github.com/Wilfredoo/waitlist" target="_blank">
-            Waitlist for Colibri
-          </a>
-        </h4>
-        <p>
-          I created this waiting list in React, here is{" "}
-          <span>
+        <div className="workContent">
+          <h3>
+            <a href="https://github.com/Wilfredoo" target="_blank">
+              CODE
+            </a>
+          </h3>
+          <h4>
+            <a href="https://github.com/Wilfredoo/JobDirecto" target="_blank">
+              JobDirecto
+            </a>
+          </h4>
+          <p>
+            For my final project at the code bootcamp I went to, I created
+            JobDirecto, a job board for hispanic immigrants in the US. And thats
+            how I fell in love with React.
+          </p>
+          <h4>
             <a href="https://github.com/Wilfredoo/waitlist" target="_blank">
-              the repo
+              Waitlist for Colibri
             </a>
-          </span>
-          .
-        </p>
-        <h4>
-          {" "}
-          And well,{" "}
-          <span>
-            <a href="https://github.com/Wilfredoo/personal" target="_blank">
-              this site
-            </a>
-          </span>{" "}
-          ;)
-        </h4>
-        <p>repo here*</p>
-        <h4> References:</h4>
-        <p>kristian@hamilton.com </p>
-        <p>amber@codebar.com </p>
+          </h4>
+          <p>
+            I created this waiting list in React, here is{" "}
+            <span>
+              <a href="https://github.com/Wilfredoo/waitlist" target="_blank">
+                the repo
+              </a>
+            </span>
+            .
+          </p>
+          <h4>
+            {" "}
+            And well,{" "}
+            <span>
+              <a href="https://github.com/Wilfredoo/personal" target="_blank">
+                this site
+              </a>
+            </span>{" "}
+            ;)
+          </h4>
+          <p>repo here*</p>
+          <h4> References:</h4>
+          <p>kristian@hamilton.com </p>
+          <p>amber@codebar.com </p>
+        </div>
       </div>
     );
   }

@@ -12,11 +12,10 @@ export class Contact extends React.Component {
         <button onClick={this.props.close} className="btn">
           <i className="fa fa-close" />
         </button>
-          <div id="about">
-            <p>
-            me@wilfredocasas.com
-            </p>
-          </div>
+        <div id="contact">
+          <h2>Contact</h2>
+          <p>me@wilfredocasas.com</p>
+        </div>
       </div>
     );
   }
