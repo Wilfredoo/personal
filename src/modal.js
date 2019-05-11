@@ -20,7 +20,7 @@ export default class Modal extends React.Component {
     return (
       <div className="modal">
         <button onClick={this.props.close} className="btn">
-          <i className="fa fa-close" />
+          <i className="fa fa-times" />
         </button>
         <div id="extradiv" />
         {this.props.modalid == "Code" && <Code back={this.props.back} />}

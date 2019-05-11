@@ -22,7 +22,7 @@ export default class Copy extends React.Component {
     return (
       <div className="workArea">
         <button onClick={this.props.back} className="back">
-          <i className="fa fa-close" />
+          <i className="fa fa-arrow-left" />
         </button>
         <div className="workContent">
           <h3> COPYWRITING</h3>

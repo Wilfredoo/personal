@@ -30,7 +30,7 @@ export default class Growth extends React.Component {
     return (
       <div className="workArea">
         <button onClick={this.props.back} className="back">
-          <i className="fa fa-close" />
+          <i className="fa fa-arrow-left" />
         </button>
 
         <div className="workContent">
@@ -54,21 +54,19 @@ export default class Growth extends React.Component {
               thousands of people{" "}
             </span>
             {this.state.showPhoto1 ? (
-              <img className="photo" src="./growth1.png" />
-            ) : (
-              true
-            )}
-            {this.state.showPhoto1 ? (
-              <button
-                onClick={() =>
-                  this.setState({
-                    showPhoto1: !this.state.showPhoto1
-                  })
-                }
-                className="closephotobutton"
-              >
-                <i className="fa fa-close" />
-              </button>
+              <div id="parentofimageandclose">
+                <img className="photo" src="./growth1.png" />
+                <button
+                  onClick={() =>
+                    this.setState({
+                      showPhoto1: !this.state.showPhoto1
+                    })
+                  }
+                  className="closephotobutton"
+                >
+                  <i className="fa fa-close" />
+                </button>
+              </div>
             ) : (
               true
             )}
@@ -101,21 +99,19 @@ export default class Growth extends React.Component {
               doing dating jokes on stage{" "}
             </span>
             {this.state.showPhoto2 ? (
-              <img className="photo" src="./growth2.jpg" />
-            ) : (
-              true
-            )}
-            {this.state.showPhoto2 ? (
-              <button
-                onClick={() =>
-                  this.setState({
-                    showPhoto2: !this.state.showPhoto2
-                  })
-                }
-                className="closephotobutton"
-              >
-                <i className="fa fa-close" />
-              </button>
+              <div id="parentofimageandclose">
+                <img className="photo" src="./growth2.jpg" />
+                <button
+                  onClick={() =>
+                    this.setState({
+                      showPhoto2: !this.state.showPhoto2
+                    })
+                  }
+                  className="closephotobutton"
+                >
+                  <i className="fa fa-close" />
+                </button>
+              </div>
             ) : (
               true
             )}{" "}

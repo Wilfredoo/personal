@@ -1,6 +1,7 @@
 body {
   font-size: 50px;
   margin-left: 10%;
+  line-height: 100px;
 }
 
 #work,
@@ -9,6 +10,10 @@ body {
 .workArea {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+#work {
+  line-height: 100px;
 }
 
 button {
@@ -41,16 +46,6 @@ a:hover {
   color: grey;
 }
 
-.photo {
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  background: white;
-}
-
 .btn {
   width: 100px;
   height: 80px;
@@ -63,6 +58,9 @@ a:hover {
   font-size: 45px;
   position: absolute;
   z-index: 2;
+  background-color: black;
+  color: white;
+  border-color: black;
 }
 
 #extradiv {
@@ -78,27 +76,52 @@ a:hover {
   width: 100px;
   height: 80px;
   font-size: 45px;
-
   background-color: pink;
   margin-top: 2%;
   position: relative;
-  /* margin-left: 0%; */
+  background-color: white;
+}
+
+.photo {
+  /* transform: translate(-50%, -50%); */
+  position: relative;
+  max-width: 830px;
+  max-height: 795px;
+  width: auto;
+  height: auto;
+  background: white;
+  z-index: 3;
+  border-style: solid;
+  border-color: black;
+  float: right;
 }
 
 .closephotobutton {
   background-color: yellow;
   color: white;
   position: absolute;
-  right: 10px;
-  top: 10px;
-  margin-top: -1.5%;
+  height: 60px;
+  width: 100px;
   font-size: 45px;
+  z-index: 3;
+  right: -10px;
+  top: -10px;
+}
+
+#parentofimageandclose {
+  transform: translate(-50%, -50%);
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  z-index: 30;
 }
 
 .workArea {
   font-size: 30px;
   position: fixed;
-
+  line-height: 60px;
   width: 95%;
   height: 99.9%;
   -webkit-scrollbarwidth: 0px -webkit-scrollbar-track-piece;
@@ -113,6 +136,6 @@ a:hover {
 }
 
 .link {
-  color: red;
+  color: hotpink;
   font-style: ;
 }
