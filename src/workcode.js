@@ -29,30 +29,47 @@ export default class Code extends React.Component {
           <i className="fa fa-arrow-left" />
         </button>
         <div className="workContent">
-          <h3>
-            <a href="https://github.com/Wilfredoo" target="_blank">
-              CODE
-            </a>
-          </h3>
+          <h3>CODE</h3>
           <h4>
-            <a href="https://github.com/Wilfredoo/JobDirecto" target="_blank">
+            <a
+              className="titleLinks"
+              href="https://github.com/Wilfredoo/JobDirecto"
+              target="_blank"
+            >
               JobDirecto
             </a>
           </h4>
           <p>
             For my final project at the code bootcamp I went to, I created
             JobDirecto, a job board for hispanic immigrants in the US. And thats
-            how I fell in love with React.
+            how I fell in love with React.{" "}
+            <span>
+              <a
+                className="link"
+                href="https://github.com/Wilfredoo/JobDirecto"
+                target="_blank"
+              >
+                the repo
+              </a>
+            </span>
           </p>
           <h4>
-            <a href="https://github.com/Wilfredoo/waitlist" target="_blank">
+            <a
+              className="titleLinks"
+              href="https://github.com/Wilfredoo/waitlist"
+              target="_blank"
+            >
               Waitlist for Colibri
             </a>
           </h4>
           <p>
             I created this waiting list in React, here is{" "}
             <span>
-              <a href="https://github.com/Wilfredoo/waitlist" target="_blank">
+              <a
+                className="link"
+                href="https://github.com/Wilfredoo/waitlist"
+                target="_blank"
+              >
                 the repo
               </a>
             </span>
@@ -62,13 +79,25 @@ export default class Code extends React.Component {
             {" "}
             And well,{" "}
             <span>
-              <a href="https://github.com/Wilfredoo/personal" target="_blank">
+              <a
+                className="titleLinks"
+                href="https://github.com/Wilfredoo/personal"
+                target="_blank"
+              >
                 this site
               </a>
             </span>{" "}
             ;)
           </h4>
-          <p>repo here*</p>
+          <span>
+            <a
+              className="link"
+              href="https://github.com/Wilfredoo/personal"
+              target="_blank"
+            >
+              repo here
+            </a>
+          </span>
           <h4> References:</h4>
           <p>kristian@hamilton.com </p>
           <p>amber@codebar.com </p>

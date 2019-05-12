@@ -16,11 +16,6 @@ body {
   line-height: 100px;
 }
 
-button {
-  height: 5%;
-  width: 5%;
-}
-
 .modal {
   transform: translate(-50%, -50%);
   position: fixed;
@@ -33,16 +28,16 @@ button {
   border-color: black;
 }
 
-a:link {
+.titleLinks:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+.titleLinks:visited {
   color: black;
 }
 
-a:hover {
+.titleLinks:hover {
   color: grey;
 }
 
@@ -82,11 +77,46 @@ a:hover {
   background-color: white;
 }
 
+.closephotobutton {
+  background-color: white;
+  color: black;
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  border-style: solid;
+  font-size: 45px;
+  z-index: 3;
+  right: -10px;
+  top: -10px;
+}
+
+#siblingDiv {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  height: 300%;
+  width: 300%;
+  background-color: black;
+  opacity: 0.0000001;
+}
+
+#parentofimageandclose {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 30;
+}
+
+#container {
+  position: absolute;
+  background-color: pink;
+}
+
 .photo {
   /* transform: translate(-50%, -50%); */
   position: relative;
-  max-width: 830px;
-  max-height: 795px;
+  max-width: 1000px;
+  max-height: 600px;
   width: auto;
   height: auto;
   background: white;
@@ -94,30 +124,8 @@ a:hover {
   border-style: solid;
   border-color: black;
   float: right;
+  opacity: 1;
 }
-
-.closephotobutton {
-  background-color: yellow;
-  color: white;
-  position: absolute;
-  height: 60px;
-  width: 100px;
-  font-size: 45px;
-  z-index: 3;
-  right: -10px;
-  top: -10px;
-}
-
-#parentofimageandclose {
-  transform: translate(-50%, -50%);
-
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  z-index: 30;
-}
-
 .workArea {
   font-size: 30px;
   position: fixed;
@@ -137,5 +145,13 @@ a:hover {
 
 .link {
   color: hotpink;
-  font-style: ;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: hotpink;
+}
+
+.link:hover {
+  color: pink;
 }

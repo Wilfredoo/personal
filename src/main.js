@@ -74,15 +74,23 @@ export class Main extends React.Component {
     return (
       <div className="bg">
         <h1 className="mainTitle">Wilfredo Casas</h1>
-        <a onClick={e => this.handleClickAbout()} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.handleClickAbout()}
+          href="#"
+        >
           About me
         </a>
         <br />
-        <a onClick={e => this.setModal("Work")} href="#">
+        <a className="titleLinks" onClick={e => this.setModal("Work")} href="#">
           My work
         </a>
         <br />
-        <a onClick={e => this.handleClickContact()} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.handleClickContact()}
+          href="#"
+        >
           Contact
         </a>
 

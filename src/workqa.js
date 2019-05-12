@@ -27,7 +27,11 @@ export default class QA extends React.Component {
         <div className="workContent">
           <h3>QUALITY ASSURANCE</h3>
           <h4>
-            <a href="https://www.branchingminds.com/" target="_blank">
+            <a
+              className="titleLinks"
+              href="https://www.branchingminds.com/"
+              target="_blank"
+            >
               Branching Minds
             </a>
           </h4>
@@ -39,16 +43,21 @@ export default class QA extends React.Component {
             and then I ended up rebuilding{" "}
             <span className="link">
               <a
+                className="link"
                 href="https://docs.google.com/spreadsheets/d/18CCj6eoYP23h4gbGigPyozV7hHFGo0Wqv8gcND8Z8yQ/edit?usp=sharing"
                 target="_blank"
               >
-                the QA testing document*
+                the QA testing document
               </a>
             </span>
           </p>
 
           <h4>
-            <a href="https://hellodogspot.com/" target="_blank">
+            <a
+              className="titleLinks"
+              href="https://hellodogspot.com/"
+              target="_blank"
+            >
               Dog Parker
             </a>
           </h4>
@@ -58,26 +67,20 @@ export default class QA extends React.Component {
             help of the COO I worked every day in creating a{" "}
             <span className="link">
               <a
+                className="link"
                 href="https://docs.google.com/spreadsheets/d/1d8S1vUjCVv1mqvJ5zWzpxwK92dFsd9XeRZq_nTrbO_8/edit?usp=sharing"
                 target="_blank"
               >
-                QA procedure document*
+                QA procedure document
               </a>
             </span>{" "}
             for manual testing which tested the dog house, mobile app and admin
             site. Then I was responsible to manual test it using this doc about
             once a week.
-            <span className="link">
-              <a
-                href="https://docs.google.com/spreadsheets/d/1d8S1vUjCVv1mqvJ5zWzpxwK92dFsd9XeRZq_nTrbO_8/edit?usp=sharing"
-                target="_blank"
-              >
-                QA procedure document*
-              </a>
-            </span>
           </p>
           <h4>
             <a
+              className="titleLinks"
               href="https://github.com/Wilfredoo/JobDirecto---automation"
               target="_blank"
             >
@@ -88,7 +91,16 @@ export default class QA extends React.Component {
             who has a lot of experience as a software engineer, and who in his
             spare time taught me the fundamentals of QA automation using Ruby
             and Capybara. This was quite fun and I’d like to improve in this.
-            Check out some work I did here.
+            Check out some work I did{" "}
+            <span className="link">
+              <a
+                className="link"
+                href="https://github.com/Wilfredoo/JobDirecto---automation"
+                target="_blank"
+              >
+                here
+              </a>
+            </span>{" "}
             <h4> References:</h4>
             <p> Todd Schechter - todd@dogparker.com</p>
             <p> William Farrell - will@branchingminds.com </p>

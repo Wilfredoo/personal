@@ -14,27 +14,47 @@ export default class Work extends React.Component {
     return (
       <div id="work">
         <h2>My work</h2>
-        <a onClick={e => this.props.setModal("Growth")} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.props.setModal("Growth")}
+          href="#"
+        >
           Growth
         </a>
         <br />
 
-        <a onClick={e => this.props.setModal("QA")} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.props.setModal("QA")}
+          href="#"
+        >
           QA
         </a>
         <br />
 
-        <a onClick={e => this.props.setModal("Design")} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.props.setModal("Design")}
+          href="#"
+        >
           Design
         </a>
         <br />
 
-        <a onClick={e => this.props.setModal("Copy")} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.props.setModal("Copy")}
+          href="#"
+        >
           Copy
         </a>
         <br />
 
-        <a onClick={e => this.props.setModal("Code")} href="#">
+        <a
+          className="titleLinks"
+          onClick={e => this.props.setModal("Code")}
+          href="#"
+        >
           Code
         </a>
       </div>

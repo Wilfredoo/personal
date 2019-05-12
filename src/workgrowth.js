@@ -18,14 +18,6 @@ export default class Growth extends React.Component {
     };
   }
 
-  // <span className="link" onClick={() => this.setState({
-  //   showPhoto1: !this.state.showPhoto1
-  // })}>
-  // thousands of people </span>
-  // { this.state.showPhoto1 ? (
-  //   <img src="https://goo.gl/4z81vo" />
-  // ) : true }
-
   render() {
     return (
       <div className="workArea">
@@ -37,7 +29,11 @@ export default class Growth extends React.Component {
           <h3> GROWTH </h3>
 
           <h4>
-            <a href="http://jobdirecto.com/" target="_blank">
+            <a
+              className="titleLinks"
+              href="http://jobdirecto.com/"
+              target="_blank"
+            >
               Jobdirecto
             </a>
           </h4>
@@ -54,30 +50,34 @@ export default class Growth extends React.Component {
               thousands of people{" "}
             </span>
             {this.state.showPhoto1 ? (
-              <div id="parentofimageandclose">
-                <img className="photo" src="./growth1.png" />
-                <button
-                  onClick={() =>
-                    this.setState({
-                      showPhoto1: !this.state.showPhoto1
-                    })
-                  }
-                  className="closephotobutton"
-                >
-                  <i className="fa fa-close" />
-                </button>
+              <div id="container">
+                <div id="parentofimageandclose">
+                  <img className="photo" src="./growth1.png" />
+                  <button
+                    onClick={() =>
+                      this.setState({
+                        showPhoto1: !this.state.showPhoto1
+                      })
+                    }
+                    className="closephotobutton"
+                  >
+                    <i className="fa fa-close" />
+                  </button>
+                </div>{" "}
+                <div id="siblingDiv" />
               </div>
             ) : (
               true
             )}
             have visited to find jobs and dozens of restaurants have used it to
-            find staff. Not a single euro was ever used in advertisement. Lots
+            find staff. Not a single euro was ev er used in advertisement. Lots
             of work in facebook groups and email marketing was necessary though.
             At the moment I scrape daily emails from Craigslist to reach out
             restaurants in NYC looking for jobs.
           </p>
           <h4>
             <a
+              className="titleLinks"
               href="https://play.google.com/store/apps/details?id=colibri.colibri.colibri"
               target="_blank"
             >
@@ -99,18 +99,21 @@ export default class Growth extends React.Component {
               doing dating jokes on stage{" "}
             </span>
             {this.state.showPhoto2 ? (
-              <div id="parentofimageandclose">
-                <img className="photo" src="./growth2.jpg" />
-                <button
-                  onClick={() =>
-                    this.setState({
-                      showPhoto2: !this.state.showPhoto2
-                    })
-                  }
-                  className="closephotobutton"
-                >
-                  <i className="fa fa-close" />
-                </button>
+              <div id="container">
+                <div id="parentofimageandclose">
+                  <img className="photo" src="./growth2.jpg" />
+                  <button
+                    onClick={() =>
+                      this.setState({
+                        showPhoto2: !this.state.showPhoto2
+                      })
+                    }
+                    className="closephotobutton"
+                  >
+                    <i className="fa fa-close" />
+                  </button>
+                </div>{" "}
+                <div id="siblingDiv" />
               </div>
             ) : (
               true
@@ -128,21 +131,22 @@ export default class Growth extends React.Component {
               invited people to test the app{" "}
             </span>
             {this.state.showPhoto3 ? (
-              <img className="photo" src="growth3.png" />
-            ) : (
-              true
-            )}
-            {this.state.showPhoto3 ? (
-              <button
-                onClick={() =>
-                  this.setState({
-                    showPhoto3: !this.state.showPhoto3
-                  })
-                }
-                className="closephotobutton"
-              >
-                <i className="fa fa-close" />
-              </button>
+              <div id="container">
+                <div id="parentofimageandclose">
+                  <img className="photo" src="./growth3.png" />
+                  <button
+                    onClick={() =>
+                      this.setState({
+                        showPhoto3: !this.state.showPhoto3
+                      })
+                    }
+                    className="closephotobutton"
+                  >
+                    <i className="fa fa-close" />
+                  </button>
+                </div>{" "}
+                <div id="siblingDiv" />
+              </div>
             ) : (
               true
             )}
@@ -150,7 +154,11 @@ export default class Growth extends React.Component {
             app.
           </p>
           <h4>
-            <a href="https://www.facebook.com/Aprueba.EVA.upc/" target="_blank">
+            <a
+              className="titleLinks"
+              href="https://www.facebook.com/Aprueba.EVA.upc/"
+              target="_blank"
+            >
               ApruebaEVA
             </a>
           </h4>

@@ -34,30 +34,38 @@ export default class Copy extends React.Component {
               className="link"
               onClick={() =>
                 this.setState({
-                  showPhoto3: !this.state.showPhoto3
+                  showPhoto1: !this.state.showPhoto1
                 })
               }
             >
+              {" "}
               two interviews{" "}
             </span>
-            {this.state.showPhoto3 ? <img src="copy2.png" /> : true}
-            {this.state.showPhoto3 ? (
-              <button
-                onClick={() =>
-                  this.setState({
-                    showPhoto3: !this.state.showPhoto3
-                  })
-                }
-                className="closephotobutton"
-              >
-                <i className="fa fa-close" />
-              </button>
+            {this.state.showPhoto1 ? (
+              <div id="container">
+                <div id="parentofimageandclose">
+                  <img className="photo" src="./copy1.png" />
+                  <button
+                    onClick={() =>
+                      this.setState({
+                        showPhoto1: !this.state.showPhoto1
+                      })
+                    }
+                    className="closephotobutton"
+                  >
+                    <i className="fa fa-close" />
+                  </button>
+                </div>{" "}
+                <div id="siblingDiv" />
+              </div>
             ) : (
               true
             )}{" "}
             with two companies in Berlin (disclaimer: I didn't end up working
-            with them). When it comes to creative and strategic writing, I know
-            my ship.
+            with them).
+            <br />
+            <br /> When it comes to creative and strategic writing, I know my
+            ship.
           </p>
         </div>
       </div>
