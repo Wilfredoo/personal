@@ -20,16 +20,16 @@ export class About extends React.Component {
             <h2>About me</h2>
             <p className="aboutText">
               Hi there, I'm Wilfredo, or well, at least I'm his website. He has
-              given me full powers to speak on his behalf though, and so I will{" "}
+              given me full powers to speak on his behalf though, and so I will.{" "}
             </p>
             <p className="aboutText">
               Wilfredo lives in Berlin and he is looking for an internship or
               junior position as a full stack software developer in a small team
-              where he can learn and do
+              where he can learn and do.
             </p>
             <p className="aboutText">
               Also he's got a few other skills that he can help with, such as
-              Growth and QA
+              Growth and QA.
             </p>{" "}
             <div id="aboutIconSection">
               <a target="_blank" href="https://github.com/Wilfredoo">
