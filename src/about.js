@@ -18,14 +18,36 @@ export class About extends React.Component {
         <form method="post" onSubmit={() => this.props.submit(this.state)}>
           <div id="about">
             <h2>About me</h2>
-            <p>
-              Hi there, Im Wilfredo, or well, at least Im his website. He has
-              given me full powers to speak in his behalf though, and so I will.{" "}
-              <br />
-              <br /> Wilfredo is looking for a job, specially if it is in a
-              solid startup where he can hone his software development skills,
-              which at the moment are rookie at best. <br />
+            <p className="aboutText">
+              Hi there, I'm Wilfredo, or well, at least I'm his website. He has
+              given me full powers to speak on his behalf though, and so I will{" "}
             </p>
+            <p className="aboutText">
+              Wilfredo lives in Berlin and he is looking for an internship or
+              junior position as a full stack software developer in a small team
+              where he can learn and do
+            </p>
+            <p className="aboutText">
+              Also he's got a few other skills that he can help with, such as
+              Growth and QA
+            </p>{" "}
+            <div id="aboutIconSection">
+              <a target="_blank" href="https://github.com/Wilfredoo">
+                <i className="about" class="fa fa-github aboutIcons" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/wilfredo.casas.752"
+              >
+                <i class="fa fa-facebook aboutIcons" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/wilfredocasas/"
+              >
+                <i class="fa fa-linkedin aboutIcons" />
+              </a>
+            </div>
           </div>
         </form>
       </div>

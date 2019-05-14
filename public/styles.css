@@ -12,6 +12,27 @@ body {
   margin-right: 5%;
 }
 
+.aboutText {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+.aboutContact {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+#aboutIconSection {
+  right: 20px;
+  bottom: 10px;
+  position: fixed;
+}
+
+.aboutIcons {
+  color: black;
+  margin-right: 50px;
+}
+
 #work {
   line-height: 100px;
 }
@@ -35,6 +56,10 @@ body {
 
 .titleLinks:visited {
   color: black;
+}
+
+#email {
+  color: blue;
 }
 
 .titleLinks:hover {
