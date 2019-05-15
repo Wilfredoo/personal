@@ -169,37 +169,3 @@ app.get("*", function(req, res) {
 });
 
 app.listen(process.env.PORT || 8080);
-// app.listen(8080, function() {
-//     console.log("I'm listening.");
-// });
-
-// // html
-// <input id="pac-input" type="text"
-//        placeholder="Enter a location">
-// <div id="map"></div>
-// <!-- Replace the value of the key parameter with your own API key. -->
-// <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=places&callback=initMap"
-//        async defer></script>
-//
-//    // JS
-//        var autocomplete = new google.maps.places.Autocomplete(input);
-//
-//          /* autocomplete.bindTo('bounds', map) */;
-//
-//          autocomplete.addListener('place_changed', function() {
-//            infowindow.close();
-//            if (!place.geometry) {
-//              // User entered the name of a Place that was not suggested and
-//              // pressed the Enter key, or the Place Details request failed.
-//              return;
-//            }
-//          });
-//
-//          document.getElementById('use-strict-bounds')
-//              .addEventListener('click', function() {
-//                autocomplete.setOptions({strictBounds: this.checked});
-//              });
-//        }
-
-// my api key
-// AIzaSyAlvHYA1vWp2xnGAi6jKbDom6quk-BVG4w

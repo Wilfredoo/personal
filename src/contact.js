@@ -15,9 +15,9 @@ export class Contact extends React.Component {
         <div id="contact">
           <h2>Contact</h2>
           <p className="aboutContact">
-            I kept this site simple on purpose, if you got questions send me a
-            line to <span id="email"> me@wilfredocasas.com </span> and we'll get
-            coffee and talk.
+            If I sparked your interest, send me a line to{" "}
+            <span id="email"> me@wilfredocasas.com </span> and we'll get coffee
+            and talk.
           </p>
           <p className="aboutContact">
             Also you can invite me to your fancy headquarters ;){" "}

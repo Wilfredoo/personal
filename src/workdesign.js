@@ -29,7 +29,8 @@ export default class Design extends React.Component {
           <h4 className="titleLinks">Guantes la Pepa</h4>
           <p>
             I guess the first thing I ever designed were these longboarding
-            gloves for Guantes la Pepa. After much prototyping and testing{" "}
+            gloves for my company Guantes la Pepa. After much prototyping and
+            testing they ended up looking{" "}
             <span
               className="link"
               onClick={() =>
@@ -38,7 +39,7 @@ export default class Design extends React.Component {
                 })
               }
             >
-              it became this.{" "}
+              like this.{" "}
             </span>
             {this.state.showPhoto1 ? (
               <div id="container">
@@ -72,10 +73,14 @@ export default class Design extends React.Component {
           </h4>
           <p>
             One of my most recent projects was to design{" "}
-            <a className="link" href="http://colibriapp.de/" target="_blank">
-              this waitlist
+            <a
+              className="link"
+              href="http://www.colibriapp.de/"
+              target="_blank"
+            >
+              this waiting list
             </a>{" "}
-            to get people to sign in for our dating app Colibri. It wasnt easy
+            to get people to sign up for our dating app Colibri. It wasn't easy
             but it was certainly fun!
           </p>
           <h4>
@@ -88,17 +93,19 @@ export default class Design extends React.Component {
             </a>
           </h4>
           <p>
-            I designed a complex prototype that people didnt use. It was fancy
+            I designed a complex prototype that people didnt use; it was fancy
             but it was crap. Then I designed this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">
               simplistic job board
             </a>{" "}
-            * that people loved. Oh, the world...
+            that people loved. Oh, the world...
           </p>
-          <h4>
-            And of course... this personal site. Hopefully you dont find it so
-            crappy!
-          </h4>
+          <h4>Personal Site</h4>
+          <p>
+            {" "}
+            And of course... I designed this personal site! Hopefully you dont
+            find it so crappy!
+          </p>
         </div>
       </div>
     );

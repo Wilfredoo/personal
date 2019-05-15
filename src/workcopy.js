@@ -27,9 +27,9 @@ export default class Copy extends React.Component {
         <div className="workContent">
           <h3> COPYWRITING</h3>
           <p>
-            This is my strongest area, as I have written copy for landing pages,
-            facebook groups and lots, lots of email. I got my 2 jobs in NYC cold
-            emailing the founder and a single job post on facebook got me
+            I have written copy for landing pages, facebook groups and lots,
+            lots of email. I got my 2 jobs in NYC cold emailing the founders and
+            a single job post on facebook got me
             <span
               className="link"
               onClick={() =>
@@ -39,7 +39,7 @@ export default class Copy extends React.Component {
               }
             >
               {" "}
-              two interviews{" "}
+              interviews{" "}
             </span>
             {this.state.showPhoto1 ? (
               <div id="container">

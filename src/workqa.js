@@ -36,11 +36,10 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            My story with QA start in 2016, when I got an internship in a
-            startup in NYC called Branching Minds. The CTO was also the QA
-            tester, and so taught me how to do QA so he could focus on the
-            programming part. Here I learned the in and outs of manual testing
-            and then I ended up rebuilding{" "}
+            The CTO in Branching Minds was also the QA tester, so he taught me
+            how to do QA so he could focus on the programming part. Here I
+            learned the in and outs of manual testing and then I ended up
+            rebuilding{" "}
             <span className="link">
               <a
                 className="link"
@@ -50,6 +49,7 @@ export default class QA extends React.Component {
                 the QA testing document
               </a>
             </span>
+            .
           </p>
 
           <h4>
@@ -62,21 +62,19 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            Later I went to Dog Parker (now DogSpot). They didnt have any QA
-            protocol in place, so for my first 2 months in the company and with
-            help of the COO I worked every day in creating a{" "}
+            In Dog Parker (now DogSpot), they didnt have any QA protocol in
+            place, so with help of the COO I in created a{" "}
             <span className="link">
               <a
                 className="link"
                 href="https://docs.google.com/spreadsheets/d/1d8S1vUjCVv1mqvJ5zWzpxwK92dFsd9XeRZq_nTrbO_8/edit?usp=sharing"
                 target="_blank"
               >
-                QA procedure document
+                QA testing document
               </a>
             </span>{" "}
-            for manual testing which tested the dog house, mobile app and admin
-            site. Then I was responsible to manual test it using this doc about
-            once a week.
+            , which I later used to manually test the dog house, mobile app and
+            admin site.
           </p>
           <h4>
             <a
@@ -88,23 +86,32 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            who has a lot of experience as a software engineer, and who in his
-            spare time taught me the fundamentals of QA automation using Ruby
-            and Capybara. This was quite fun and I’d like to improve in this.
-            Check out some work I did{" "}
+            Recently my friend and colleage Jonathan Poischen taught me the
+            fundamentals of QA automation using Ruby, Selenium and Capybara.
+            This was quite fun and I’d like to improve in this.{" "}
             <span className="link">
               <a
                 className="link"
                 href="https://github.com/Wilfredoo/JobDirecto---automation"
                 target="_blank"
               >
-                here
+                Here is the bot I created
               </a>
             </span>{" "}
-            <h4> References:</h4>
-            <p> Todd Schechter - todd@dogparker.com</p>
-            <p> William Farrell - will@branchingminds.com </p>
-            <p> Jonathan Poischen - jonpoischen@gmail.com </p>
+            to scrape emails from Craigslist. Works like a charm.
+            <h5 className="referenceTitle"> References:</h5>
+            <p className="referenceText">
+              {" "}
+              Todd Schechter - todd@dogparker.com
+            </p>
+            <p className="referenceText">
+              {" "}
+              William Farrell - will@branchingminds.com{" "}
+            </p>
+            <p className="referenceText">
+              {" "}
+              Jonathan Poischen - jonpoischen@gmail.com{" "}
+            </p>
           </p>
         </div>
       </div>

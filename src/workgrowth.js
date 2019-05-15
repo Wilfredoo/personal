@@ -38,7 +38,7 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            JobDirecto grew quickly, and up to date{" "}
+            I grew JobDirecto from 0 to the{" "}
             <span
               className="link"
               onClick={() =>
@@ -47,7 +47,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              thousands of people{" "}
+              thousands of users that it has today{" "}
             </span>
             {this.state.showPhoto1 ? (
               <div id="container">
@@ -69,11 +69,10 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            have visited to find jobs and dozens of restaurants have used it to
-            find staff. Not a single euro was ev er used in advertisement. Lots
-            of work in facebook groups and email marketing was necessary though.
-            At the moment I scrape daily emails from Craigslist to reach out
-            restaurants in NYC looking for jobs.
+            , without spending a single euro on ads. How? Lots of work in
+            facebook groups and email marketing. At the moment I scrape emails
+            from Craigslist every day to reach out to restaurants in NYC looking
+            for staff and drive them to my site. Works like a charm.
           </p>
           <h4>
             <a
@@ -85,9 +84,9 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            While Jon was accountable to build our dating app Colibri, I was
-            accountable to get the users. At first I started going to open mic
-            comedy shows,{" "}
+            Jon was accountable to build our dating app Colibri and I was
+            accountable to get the users for it. At first I started by going to
+            open mics and telling people about the app after doing some{" "}
             <span
               className="link"
               onClick={() =>
@@ -96,7 +95,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              doing dating jokes on stage{" "}
+              dating jokes on stage{" "}
             </span>
             {this.state.showPhoto2 ? (
               <div id="container">
@@ -118,8 +117,7 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}{" "}
-            and inviting people in for the app. This was fun (for me) but
-            inefficient. Then I went to other dating apps and{" "}
+            . This was fun (for me) but inefficient. Then apps and{" "}
             <span
               className="link"
               onClick={() =>
@@ -128,7 +126,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              invited people to test the app{" "}
+              I went to other dating apps{" "}
             </span>
             {this.state.showPhoto3 ? (
               <div id="container">
@@ -150,8 +148,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            . This worked better and got around 150 people to sign in for the
-            app.
+            and invited people to test the app. This worked better and I got
+            around 200 people to sign in for the app.
           </p>
           <h4>
             <a
@@ -163,13 +161,14 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            How I got hundreds of students for my finance school apruebaEVA back
-            in old good Peru? Lots of emails and a solid facebook page. Nothing
-            fancy, but it did the work and payed the bills.
+            How I got hundreds of students for my little finance school
+            apruebaEVA back in good old Peru? Lots of emails and a solid
+            facebook page. Nothing fancy, but it did the work and payed the
+            bills.
           </p>
-          <h4>References:</h4>
-          <p>Daniel Riaz - danriaz@gmail.com</p>
-          <p>Jonathan Poischen - danriaz@gmail.com</p>
+          <h5 className="referenceTitle">References:</h5>
+          <p className="referenceText">Daniel Riaz - danriaz@gmail.com</p>
+          <p className="referenceText">Jonathan Poischen - danriaz@gmail.com</p>
         </div>
       </div>
     );
