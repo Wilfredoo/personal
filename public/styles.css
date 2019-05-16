@@ -110,7 +110,6 @@ body {
   width: 100px;
   height: 80px;
   font-size: 45px;
-  background-color: pink;
   margin-top: 2%;
   position: relative;
   background-color: white;
@@ -148,7 +147,44 @@ body {
 
 #container {
   position: absolute;
-  background-color: pink;
+}
+
+#mobileMessageContent {
+  position: absolute;
+  z-index: 2;
+  color: #ffbf00;
+  text-align: center;
+  margin: 12%;
+  font-size: 80px;
+  line-height: 130px;
+  font-family: "Lobster", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Vollkorn", serif;
+  font-family: "Istok Web", sans-serif;
+}
+
+#someday {
+  font-size: 50px;
+  line-height: 0px;
+}
+
+#never {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+#desktop {
+}
+
+#mobileGif {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+#juniorPosition {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
 }
 
 .photo {

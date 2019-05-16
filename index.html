@@ -1,18 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800|Indie+Flower|Lobster|Oleo+Script:700"
+    <link
+    href="https://fonts.googleapis.com/css?family=Istok+Web|Lobster|Rubik|Vollkorn"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Monoton"
+    rel="stylesheet"
+  />
+
+  <script>
+    function isDesktop() {
+      if ("screen" in window && window.screen.width > 1366) {
+        return true;
+      }
+
+      return false;
+    }
+  </script>
 </head>
-<main></main>
+<main id="container"></main>
+<div id="desktop">
+  <div id="mobileMessageContent">
+    <p id="coming soon">Coming soon for mobile!</p>
+    <p id="someday">(someday)</p>
+    <p id="never">never</p>
+    <p>For now, please enjoy this site from your desktop</p>
+    <p>
+      Cheers,<br />
+      Wilfredo
+    </p>
+  </div>
+  <img
+    id="mobileGif"
+    src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif"
+    alt=""
+  />
+</div>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129656531-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-129656531-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'UA-129656531-1');
+  gtag("config", "UA-129656531-1");
 </script>
 
 <script src="/bundle.js"></script>
+<script>
+  if (!isDesktop()) {
+    document.getElementById("container").style.display = "none";
+  } else {
+    document.getElementById("desktop").style.display = "none";
+  }
+</script>
