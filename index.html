@@ -8,27 +8,48 @@
   />
   <link
     href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800|Indie+Flower|Lobster|Oleo+Script:700"
-    <link
-    href="https://fonts.googleapis.com/css?family=Istok+Web|Lobster|Rubik|Vollkorn"
     rel="stylesheet"
   />
   <link
     href="https://fonts.googleapis.com/css?family=Monoton"
     rel="stylesheet"
   />
-
   <script>
-    function isDesktop() {
-      if ("screen" in window && window.screen.width > 1366) {
+    function isMobile() {
+      if (navigator.userAgent.match(/Mobi/)) {
+        return true;
+      }
+
+      if ("screen" in window && window.screen.width < 1366) {
+        return true;
+      }
+
+      var connection =
+        navigator.connection ||
+        navigator.mozConnection ||
+        navigator.webkitConnection;
+      if (connection && connection.type === "cellular") {
         return true;
       }
 
       return false;
     }
+
+    (function() {
+      var hero = document.getElementById("hero");
+      var mobile = isMobile();
+      if (mobile) {
+        hero.innerHTML = '<img src="hero-image.jpg" alt="">';
+      } else {
+        hero.innerHTML =
+          '<video src="hero-image.mp4" poster="hero-image.jpg" autoplay loop muted playsinline>';
+      }
+    })();
   </script>
 </head>
+
 <main id="container"></main>
-<div id="desktop">
+<div id="not-desktop">
   <div id="mobileMessageContent">
     <p id="coming soon">Coming soon for mobile!</p>
     <p id="someday">(someday)</p>
@@ -62,9 +83,12 @@
 
 <script src="/bundle.js"></script>
 <script>
-  if (!isDesktop()) {
-    document.getElementById("container").style.display = "none";
+  if (!isMobile()) {
+    document.getElementById("not-desktop").style.display = "none";
+
+    document.getElementById("container").style.display = "unset";
   } else {
-    document.getElementById("desktop").style.display = "none";
+    document.getElementById("not-desktop").style.display = "unset";
+    document.getElementById("container").style.display = "none";
   }
 </script>
