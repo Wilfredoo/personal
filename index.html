@@ -34,17 +34,6 @@
 
       return false;
     }
-
-    (function() {
-      var hero = document.getElementById("hero");
-      var mobile = isMobile();
-      if (mobile) {
-        hero.innerHTML = '<img src="hero-image.jpg" alt="">';
-      } else {
-        hero.innerHTML =
-          '<video src="hero-image.mp4" poster="hero-image.jpg" autoplay loop muted playsinline>';
-      }
-    })();
   </script>
 </head>
 
@@ -85,7 +74,6 @@
 <script>
   if (!isMobile()) {
     document.getElementById("not-desktop").style.display = "none";
-
     document.getElementById("container").style.display = "unset";
   } else {
     document.getElementById("not-desktop").style.display = "unset";

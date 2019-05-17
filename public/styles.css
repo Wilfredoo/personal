@@ -173,7 +173,8 @@ body {
   line-height: 35px;
 }
 
-#desktop {
+#not-desktop {
+  display: none;
 }
 
 #mobileGif {
