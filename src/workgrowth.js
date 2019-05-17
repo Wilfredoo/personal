@@ -71,8 +71,7 @@ export default class Growth extends React.Component {
             )}
             , without spending a single euro on ads. How? Lots of work in
             facebook groups and email marketing. At the moment I scrape emails
-            from Craigslist every day to reach out to restaurants in NYC looking
-            for staff and drive them to my site. Works like a charm.
+            from Craigslist to drive restaurants looking for staff to my site.
           </p>
           <h4>
             <a
@@ -84,9 +83,9 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            Jon was accountable to build our dating app Colibri and I was
-            accountable to get the users for it. At first I started by going to
-            open mics and telling people about the app after doing some{" "}
+            While Jon was building our dating app Colibri, I was accountable to
+            get the testers and users for it. At first I started by going to
+            comedy open mics and telling people about the app after doing some{" "}
             <span
               className="link"
               onClick={() =>
@@ -117,7 +116,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}{" "}
-            . This was fun (for me) but inefficient. Then apps and{" "}
+            . This was fun (for me) but inefficient. Then I went to Tinder an
+            Bumble apps{" "}
             <span
               className="link"
               onClick={() =>
@@ -126,7 +126,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              I went to other dating apps{" "}
+              to drive their users to us{" "}
             </span>
             {this.state.showPhoto3 ? (
               <div id="container">
@@ -148,8 +148,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            and invited people to test the app. This worked better and I got
-            around 200 people to sign in for the app.
+            . This worked better and I got around 200 people to sign in for the
+            app.
           </p>
           <h4>
             <a
@@ -167,8 +167,10 @@ export default class Growth extends React.Component {
             bills.
           </p>
           <h5 className="referenceTitle">References:</h5>
-          <p className="referenceText">Daniel Riaz - danriaz@gmail.com</p>
-          <p className="referenceText">Jonathan Poischen - danriaz@gmail.com</p>
+          <p className="referenceText">Daniel Riaz - daniel.riaz@gmail.com </p>
+          <p className="referenceText">
+            Jonathan Poischen - jonpoischen@gmail.com
+          </p>
         </div>
       </div>
     );

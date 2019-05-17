@@ -36,10 +36,9 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            The CTO in Branching Minds was also the QA tester, so he taught me
-            how to do QA so he could focus on the programming part. Here I
-            learned the in and outs of manual testing and then I ended up
-            rebuilding{" "}
+            The CTO in Branching Minds taught me how to do QA so he could focus
+            better on the development. Here I learned the ins and outs of manual
+            testing and shortly after I ended up rebuilding{" "}
             <span className="link">
               <a
                 className="link"
@@ -62,8 +61,8 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            In Dog Parker (now DogSpot), they didnt have any QA protocol in
-            place, so with help of the COO I in created a{" "}
+            In Dog Parker (now DogSpot), they didnt have a QA protocol in place,
+            so with help of the COO, I created a{" "}
             <span className="link">
               <a
                 className="link"
@@ -72,7 +71,7 @@ export default class QA extends React.Component {
               >
                 QA testing document
               </a>
-            </span>{" "}
+            </span>
             , which I later used to manually test the dog house, mobile app and
             admin site.
           </p>
@@ -100,10 +99,7 @@ export default class QA extends React.Component {
             </span>{" "}
             to scrape emails from Craigslist. Works like a charm.
             <h5 className="referenceTitle"> References:</h5>
-            <p className="referenceText">
-              {" "}
-              Todd Schechter - todd@dogparker.com
-            </p>
+            <p className="referenceText"> Todd Schechter - todd@dogspot.com</p>
             <p className="referenceText">
               {" "}
               William Farrell - will@branchingminds.com{" "}

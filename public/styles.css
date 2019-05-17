@@ -150,10 +150,13 @@ body {
 }
 
 #mobileMessageContent {
-  position: absolute;
+  position: fixed;
+  left: 5%;
+  right: 5%;
+
+  text-align: center;
   z-index: 2;
   color: #ffbf00;
-  text-align: center;
   margin: 12%;
   font-size: 80px;
   line-height: 130px;
@@ -180,6 +183,7 @@ body {
 #mobileGif {
   height: 100%;
   width: 100%;
+  left: 0;
   position: fixed;
 }
 

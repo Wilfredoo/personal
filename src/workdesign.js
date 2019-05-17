@@ -80,7 +80,7 @@ export default class Design extends React.Component {
             >
               this waiting list
             </a>{" "}
-            to get people to sign up for our dating app Colibri. It wasn't easy
+            to get people to sign in for our dating app Colibri. It wasn't easy
             but it was certainly fun!
           </p>
           <h4>
@@ -96,14 +96,14 @@ export default class Design extends React.Component {
             I designed a complex prototype that people didnt use; it was fancy
             but it was crap. Then I designed this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">
-              simplistic job board
+              simple job board
             </a>{" "}
             that people loved. Oh, the world...
           </p>
           <h4>Personal Site</h4>
           <p>
             {" "}
-            And of course... I designed this personal site! Hopefully you dont
+            And of course, I designed my own personal site. Hopefully you dont
             find it so crappy!
           </p>
         </div>

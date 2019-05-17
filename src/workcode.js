@@ -40,8 +40,17 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            For my final project at the code bootcamp I went to, I created
-            JobDirecto, a job site for Hispanic immigrants in the US.{" "}
+            For my final project at{" "}
+            <span>
+              <a
+                className="link"
+                href="https://www.spiced-academy.com/"
+                target="_blank"
+              >
+                the code bootcamp I went to
+              </a>
+            </span>{" "}
+            here in Berlin, I created JobDirecto using React and Node JS.{" "}
             <span>
               <a
                 className="link"
@@ -62,7 +71,7 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            I created this simple waiting list using React,{" "}
+            I created this simple waiting list using React and Node JS,{" "}
             <span>
               <a
                 className="link"
@@ -72,7 +81,6 @@ export default class Code extends React.Component {
                 check out the repo!
               </a>
             </span>
-            .
           </p>
           <h4>
             <a className="titleLinks" href="https://www.wilfredocasas.com">
@@ -80,20 +88,22 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            And of course, my own site.{" "}
+            And of course, my personal site. Guess what I used? Haha,{" "}
             <span>
               <a
                 className="link"
                 href="https://github.com/Wilfredoo/personal"
                 target="_blank"
               >
-                Repo here.
+                repo is here.
               </a>
             </span>
           </p>
           <h4 className="referenceTitle"> References:</h4>
-          <p className="referenceText">kristian@hamilton.com </p>
-          <p className="referenceText">amber@codebar.com </p>
+          <p className="referenceText">Kristian Hamilton +44 77 0723 1474 </p>
+          <p className="referenceText">
+            Jonathan Poischen - jonpoischen@gmail.com{" "}
+          </p>
         </div>
       </div>
     );
