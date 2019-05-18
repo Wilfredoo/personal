@@ -176,8 +176,10 @@ body {
   line-height: 35px;
 }
 
-#not-desktop {
-  display: none;
+@media (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 #mobileGif {
