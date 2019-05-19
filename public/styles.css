@@ -273,28 +273,25 @@ h4 {
     right: 1px;
   }
 
-  .parentofimageandclose {
-    transform: translate(-50%, -50%);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 30;
-    width: 90%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 2px black;
-  }
+  @media only screen and (min-width: 601px) {
+    .parentofimageandclose {
+      z-index: 30;
+      width: 90%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 2px 2px black;
+    }
 
-  .photo {
-    height: 100%;
-    width: 100%;
-    max-width: 300px;
-    max-height: 250px;
-    position: relative;
+    .photo {
+      height: 90%;
+      width: 90%;
+      max-width: 400px;
+      max-height: 250px;
+      position: relative;
+    }
   }
-
   .workArea {
     font-size: 15px;
     line-height: 25px;
@@ -335,7 +332,7 @@ h4 {
     font-size: 30px;
     width: 45px;
     height: 35px;
-    right: -3px;
+    right: 50%;
     top: -3px;
   }
 }
