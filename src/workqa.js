@@ -36,16 +36,16 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            The CTO in Branching Minds taught me how to do QA so he could focus
-            better on the development. Here I learned the ins and outs of manual
-            testing and shortly after I ended up rebuilding{" "}
+            The CTO taught me all about manual testing here; how to write good
+            features, bugs and test our web app. Shortly after I ended up
+            re-writing{" "}
             <span className="link">
               <a
                 className="link"
                 href="https://docs.google.com/spreadsheets/d/18CCj6eoYP23h4gbGigPyozV7hHFGo0Wqv8gcND8Z8yQ/edit?usp=sharing"
                 target="_blank"
               >
-                the QA testing document
+                our QA testing document
               </a>
             </span>
             .
@@ -72,8 +72,8 @@ export default class QA extends React.Component {
                 QA testing document
               </a>
             </span>
-            , which I later used to manually test the dog house, mobile app and
-            admin site.
+            , which I later used myself to manually test the dog house, mobile
+            app and admin site.
           </p>
           <h4>
             <a

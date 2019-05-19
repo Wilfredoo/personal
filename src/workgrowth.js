@@ -38,7 +38,7 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            I grew JobDirecto from 0 to the{" "}
+            I grew JobDirecto from 0 to{" "}
             <span
               className="link"
               onClick={() =>
@@ -47,7 +47,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              thousands of users that it has today{" "}
+              50k monthly sessions{" "}
             </span>
             {this.state.showPhoto1 ? (
               <div class="container">
@@ -69,9 +69,9 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            , without spending a single euro on ads. How? Lots of work in
-            facebook groups and email marketing. At the moment I scrape emails
-            from Craigslist to drive restaurants looking for staff to my site.
+            without spending a single euro on ads. How? Building a solid
+            community on Facebook and scraping thousands of emails from
+            Craigslist for email marketing.
           </p>
           <h4>
             <a
@@ -83,9 +83,8 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            While Jon was building our dating app Colibri, I was accountable to
-            get the testers and users for it. At first I started by going to
-            comedy open mics and telling people about the app after doing some{" "}
+            I was accountable to get the users for the dating app Jon and I were
+            building. At first I tried{" "}
             <span
               className="link"
               onClick={() =>
@@ -94,7 +93,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              dating jokes on stage{" "}
+              by going to comedy open mics in Berlin{" "}
             </span>
             {this.state.showPhoto2 ? (
               <div class="container">
@@ -116,8 +115,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}{" "}
-            . This was fun (for me) but inefficient. Then I went to Tinder an
-            Bumble apps{" "}
+            and inviting telling people about the app after doing some jokes on
+            stage. This was fun (for me) but inefficient. Then{" "}
             <span
               className="link"
               onClick={() =>
@@ -126,7 +125,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              to drive their users to us{" "}
+              I went to Tinder and Bumble{" "}
             </span>
             {this.state.showPhoto3 ? (
               <div class="container">
@@ -148,8 +147,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            . This worked better and I got around 200 people to sign in for the
-            app.
+            to spread the work. This worked better and I got around 200 people
+            to sign in for the app.
           </p>
           <h4>
             <a
