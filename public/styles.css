@@ -182,27 +182,28 @@ body {
   padding-bottom: 2px;
 }
 /* **** */
+@media only screen and (min-width: 601px) {
+  .parentofimageandclose {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 30;
+  }
 
-.parentofimageandclose {
-  transform: translate(-50%, -50%);
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 30;
-}
-
-.photo {
-  position: relative;
-  max-width: 1000px;
-  max-height: 600px;
-  width: auto;
-  height: auto;
-  background: white;
-  z-index: 3;
-  border-style: solid;
-  border-color: black;
-  float: right;
-  opacity: 1;
+  .photo {
+    position: relative;
+    max-width: 1000px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    background: white;
+    z-index: 3;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    opacity: 1;
+  }
 }
 
 .workArea {
@@ -273,25 +274,14 @@ h4 {
     right: 1px;
   }
 
-  @media only screen and (min-width: 601px) {
-    .parentofimageandclose {
-      z-index: 30;
-      width: 90%;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 2px 2px black;
-    }
-
-    .photo {
-      height: 90%;
-      width: 90%;
-      max-width: 400px;
-      max-height: 250px;
-      position: relative;
-    }
+  .parentofimageandclose {
   }
+
+  .photo {
+    height: auto;
+    max-width: 100%;
+  }
+
   .workArea {
     font-size: 15px;
     line-height: 25px;
@@ -332,7 +322,7 @@ h4 {
     font-size: 30px;
     width: 45px;
     height: 35px;
-    right: 50%;
+    right: -3px;
     top: -3px;
   }
 }
