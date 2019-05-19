@@ -290,7 +290,7 @@ h4 {
   .photo {
     height: 90%;
     width: 90%;
-    max-width: 450px;
+    max-width: 400px;
     max-height: 300px;
     position: relative;
   }
@@ -329,5 +329,13 @@ h4 {
 
   .aboutTextSection {
     margin-top: -23px;
+  }
+
+  .closephotobutton {
+    font-size: 30px;
+    width: 45px;
+    height: 35px;
+    right: -3px;
+    top: -3px;
   }
 }
