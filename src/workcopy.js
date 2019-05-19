@@ -43,8 +43,8 @@ export default class Copy extends React.Component {
               interviews{" "}
             </span>
             {this.state.showPhoto1 ? (
-              <div id="container">
-                <div id="parentofimageandclose">
+              <div class="container">
+                <div class="parentofimageandclose">
                   <img className="photo" src="./copy1.png" />
                   <button
                     onClick={() =>

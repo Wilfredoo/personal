@@ -42,8 +42,8 @@ export default class Design extends React.Component {
               like this.{" "}
             </span>
             {this.state.showPhoto1 ? (
-              <div id="container">
-                <div id="parentofimageandclose">
+              <div class="container">
+                <div class="parentofimageandclose">
                   <img className="photo" src="./design1.jpg" />
                   <button
                     onClick={() =>

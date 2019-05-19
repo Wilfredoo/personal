@@ -14,49 +14,51 @@ export default class Work extends React.Component {
     return (
       <div id="work">
         <h2>My work</h2>
-        <a
-          className="titleLinks"
-          onClick={e => this.props.setModal("Growth")}
-          href="#"
-        >
-          Growth
-        </a>
-        <br />
+        <div id="workLinks">
+          <a
+            className="titleLinks"
+            onClick={e => this.props.setModal("Growth")}
+            href="#"
+          >
+            Growth
+          </a>
+          <br />
 
-        <a
-          className="titleLinks"
-          onClick={e => this.props.setModal("QA")}
-          href="#"
-        >
-          QA
-        </a>
-        <br />
+          <a
+            className="titleLinks"
+            onClick={e => this.props.setModal("QA")}
+            href="#"
+          >
+            QA
+          </a>
+          <br />
 
-        <a
-          className="titleLinks"
-          onClick={e => this.props.setModal("Design")}
-          href="#"
-        >
-          Design
-        </a>
-        <br />
+          <a
+            className="titleLinks"
+            onClick={e => this.props.setModal("Design")}
+            href="#"
+          >
+            Design
+          </a>
+          <br />
 
-        <a
-          className="titleLinks"
-          onClick={e => this.props.setModal("Copy")}
-          href="#"
-        >
-          Copy
-        </a>
-        <br />
+          <a
+            className="titleLinks"
+            onClick={e => this.props.setModal("Copy")}
+            href="#"
+          >
+            Copy
+          </a>
+          <br />
 
-        <a
-          className="titleLinks"
-          onClick={e => this.props.setModal("Code")}
-          href="#"
-        >
-          Code
-        </a>
+          <a
+            className="titleLinks"
+            onClick={e => this.props.setModal("Code")}
+            href="#"
+          >
+            Code
+          </a>
+        </div>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 body {
   font-size: 50px;
-  margin-left: 10%;
   line-height: 100px;
+  margin-left: 10%;
 }
 
 #work,
@@ -37,14 +37,14 @@ body {
 }
 
 #aboutIconSection {
-  right: 20px;
   bottom: 10px;
   position: fixed;
+  right: 0px;
 }
 
 .aboutIcons {
   color: black;
-  margin-right: 50px;
+  margin: 25px;
 }
 
 #work {
@@ -137,15 +137,9 @@ body {
   opacity: 0.0000001;
 }
 
-#parentofimageandclose {
-  transform: translate(-50%, -50%);
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 30;
-}
+/* ***** */
 
-#container {
+.container {
   position: absolute;
 }
 
@@ -176,12 +170,6 @@ body {
   line-height: 35px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
 #mobileGif {
   height: 100%;
   width: 100%;
@@ -193,9 +181,17 @@ body {
   border-bottom: 1px solid #000;
   padding-bottom: 2px;
 }
+/* **** */
+
+.parentofimageandclose {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 30;
+}
 
 .photo {
-  /* transform: translate(-50%, -50%); */
   position: relative;
   max-width: 1000px;
   max-height: 600px;
@@ -208,6 +204,7 @@ body {
   float: right;
   opacity: 1;
 }
+
 .workArea {
   font-size: 30px;
   position: fixed;
@@ -241,4 +238,58 @@ body {
 h4 {
   margin-bottom: -15px;
   margin-top: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .aboutText,
+  .aboutContact {
+    font-size: 16px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  #workLinks {
+    margin-top: 30px;
+    font-size: 23px;
+    line-height: 67px;
+    text-align: center;
+  }
+
+  .btn {
+    width: 80px;
+    height: 60px;
+  }
+
+  #aboutIconSection {
+    left: 1px;
+    right: 1px;
+  }
+
+  .parentofimageandclose {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 30;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px black;
+  }
+
+  .photo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
 }

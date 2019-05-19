@@ -50,8 +50,8 @@ export default class Growth extends React.Component {
               thousands of users that it has today{" "}
             </span>
             {this.state.showPhoto1 ? (
-              <div id="container">
-                <div id="parentofimageandclose">
+              <div class="container">
+                <div class="parentofimageandclose">
                   <img className="photo" src="./growth1.png" />
                   <button
                     onClick={() =>
@@ -97,8 +97,8 @@ export default class Growth extends React.Component {
               dating jokes on stage{" "}
             </span>
             {this.state.showPhoto2 ? (
-              <div id="container">
-                <div id="parentofimageandclose">
+              <div class="container">
+                <div class="parentofimageandclose">
                   <img className="photo" src="./growth2.jpg" />
                   <button
                     onClick={() =>
@@ -129,8 +129,8 @@ export default class Growth extends React.Component {
               to drive their users to us{" "}
             </span>
             {this.state.showPhoto3 ? (
-              <div id="container">
-                <div id="parentofimageandclose">
+              <div class="container">
+                <div class="parentofimageandclose">
                   <img className="photo" src="./growth3.png" />
                   <button
                     onClick={() =>

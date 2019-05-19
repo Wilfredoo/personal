@@ -73,37 +73,45 @@ export class Main extends React.Component {
   render() {
     return (
       <div className="bg">
-        <h1 className="mainTitle">Wilfredo Casas</h1>
-        <a
-          className="titleLinks"
-          onClick={e => this.handleClickAbout()}
-          href="#"
-        >
-          About me
-        </a>
-        <br />
-        <a className="titleLinks" onClick={e => this.setModal("Work")} href="#">
-          My work
-        </a>
-        <br />
-        <a
-          className="titleLinks"
-          onClick={e => this.handleClickContact()}
-          href="#"
-        >
-          Contact
-        </a>
+        <div className="main">
+          <h1 className="mainTitle">Wilfredo Casas</h1>
+          <a
+            className="titleLinks"
+            onClick={e => this.handleClickAbout()}
+            href="#"
+          >
+            About me
+          </a>
+          <br />
+          <a
+            className="titleLinks"
+            onClick={e => this.setModal("Work")}
+            href="#"
+          >
+            My work
+          </a>
+          <br />
+          <a
+            className="titleLinks"
+            onClick={e => this.handleClickContact()}
+            href="#"
+          >
+            Contact
+          </a>
 
-        {this.state.showAbout && <About close={e => this.hideAbout()} />}
-        {this.state.showContact && <Contact close={e => this.hideContact()} />}
-        {this.state.modalid != "" && (
-          <Modal
-            modalid={this.state.modalid}
-            close={this.handleClose}
-            setModal={this.setModal}
-            back={this.handleBack}
-          />
-        )}
+          {this.state.showAbout && <About close={e => this.hideAbout()} />}
+          {this.state.showContact && (
+            <Contact close={e => this.hideContact()} />
+          )}
+          {this.state.modalid != "" && (
+            <Modal
+              modalid={this.state.modalid}
+              close={this.handleClose}
+              setModal={this.setModal}
+              back={this.handleBack}
+            />
+          )}
+        </div>
       </div>
     );
   }

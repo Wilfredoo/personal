@@ -19,17 +19,16 @@ export class About extends React.Component {
           <div id="about">
             <h2>About me</h2>
             <div className="aboutTextSection">
-              <p className="aboutText">Hey! </p>
               <p className="aboutText">
                 {" "}
-                I'm Wilfredo, or well, at least I'm his website, but I'll speak
-                on his behalf.{" "}
+                Hey! I'm Wilfredo, or well, at least I'm his website, but I'll
+                speak on his behalf.{" "}
               </p>
               <p className="aboutText">
                 I'm looking for a{" "}
                 <span id="juniorPosition">
-                  junior position as a full stack software developer in a small
-                  team in Berlin{" "}
+                  junior position as a full stack web developer in a small team
+                  in Berlin{" "}
                 </span>{" "}
                 where I can learn and do.
               </p>
