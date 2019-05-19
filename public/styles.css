@@ -275,11 +275,23 @@ h4 {
   }
 
   .parentofimageandclose {
+    transform: translate(0%, 0%);
+    position: fixed;
+    top: 20%;
+    z-index: 300;
+    width: 88%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
   }
 
   .photo {
-    height: auto;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: 400;
+    position: relative;
   }
 
   .workArea {
@@ -322,7 +334,8 @@ h4 {
     font-size: 30px;
     width: 45px;
     height: 35px;
-    right: -3px;
+    right: 0;
     top: -3px;
+    z-index: 3000;
   }
 }
