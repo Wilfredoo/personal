@@ -21,14 +21,12 @@ export class About extends React.Component {
             <div className="aboutTextSection">
               <p className="aboutText">
                 {" "}
-                Hey! I'm Wilfredo, or well, at least I'm his website, but I'll
-                speak on his behalf.{" "}
+                Hey! I'm Wilfredo, entrepreneur and generalist living in Berlin.{" "}
               </p>
               <p className="aboutText">
                 I'm looking for a{" "}
                 <span id="juniorPosition">
-                  junior position as a full stack web developer in a small team
-                  in Berlin{" "}
+                  junior position as a full stack web developer in a small team{" "}
                 </span>{" "}
                 where I can learn and do.
               </p>

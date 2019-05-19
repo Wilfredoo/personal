@@ -284,6 +284,8 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 2px solid hotpink;
+    border-bottom: 2px solid hotpink;
   }
 
   .photo {
