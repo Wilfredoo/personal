@@ -98,16 +98,21 @@ export default class QA extends React.Component {
               </a>
             </span>{" "}
             to scrape emails from Craigslist. Works like a charm.
-            <h5 className="referenceTitle"> References:</h5>
-            <p className="referenceText"> Todd Schechter - todd@dogspot.com</p>
-            <p className="referenceText">
-              {" "}
-              William Farrell - will@branchingminds.com{" "}
-            </p>
-            <p className="referenceText">
-              {" "}
-              Jonathan Poischen - jonpoischen@gmail.com{" "}
-            </p>
+            <div className="references">
+              <h5 className="referenceTitle"> References:</h5>
+              <p className="referenceText">
+                {" "}
+                Todd Schechter - todd@dogspot.com
+              </p>
+              <p className="referenceText">
+                {" "}
+                William Farrell - will@branchingminds.com{" "}
+              </p>
+              <p className="referenceText">
+                {" "}
+                Jonathan Poischen - jonpoischen@gmail.com{" "}
+              </p>
+            </div>
           </p>
         </div>
       </div>

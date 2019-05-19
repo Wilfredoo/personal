@@ -99,11 +99,13 @@ export default class Code extends React.Component {
               </a>
             </span>
           </p>
-          <h4 className="referenceTitle"> References:</h4>
-          <p className="referenceText">Kristian Hamilton +44 77 0723 1474 </p>
-          <p className="referenceText">
-            Jonathan Poischen - jonpoischen@gmail.com{" "}
-          </p>
+          <div className="references">
+            <h4 className="referenceTitle"> References:</h4>
+            <p className="referenceText">Kristian Hamilton +44 77 0723 1474 </p>
+            <p className="referenceText">
+              Jonathan Poischen - jonpoischen@gmail.com{" "}
+            </p>
+          </div>
         </div>
       </div>
     );

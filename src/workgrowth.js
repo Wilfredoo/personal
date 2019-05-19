@@ -166,11 +166,15 @@ export default class Growth extends React.Component {
             facebook page. Nothing fancy, but it did the work and payed the
             bills.
           </p>
-          <h5 className="referenceTitle">References:</h5>
-          <p className="referenceText">Daniel Riaz - daniel.riaz@gmail.com </p>
-          <p className="referenceText">
-            Jonathan Poischen - jonpoischen@gmail.com
-          </p>
+          <div className="references">
+            <h5 className="referenceTitle">References</h5>
+            <p className="referenceText">
+              Daniel Riaz - daniel.riaz@gmail.com{" "}
+            </p>
+            <p className="referenceText">
+              Jonathan Poischen - jonpoischen@gmail.com
+            </p>
+          </div>
         </div>
       </div>
     );

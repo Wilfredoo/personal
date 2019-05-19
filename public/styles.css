@@ -292,4 +292,35 @@ h4 {
     width: 100%;
     position: relative;
   }
+
+  .workArea {
+    font-size: 18px;
+    line-height: 38px;
+  }
+
+  .workContent {
+    margin-top: 20px;
+  }
+
+  .back {
+    width: 75px;
+    height: 55px;
+    float: left;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .referenceTitle {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .referenceText {
+    font-size: 18px;
+  }
+  .references {
+    margin-top: 45px;
+  }
 }
