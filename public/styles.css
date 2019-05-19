@@ -288,9 +288,9 @@ h4 {
   }
 
   .photo {
-    height: 90%;
-    width: 90%;
-    max-width: 400px;
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
     max-height: 250px;
     position: relative;
   }
