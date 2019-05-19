@@ -276,15 +276,14 @@ h4 {
 
   .parentofimageandclose {
     transform: translate(0%, 0%);
-    position: fixed;
+    position: relative;
     top: 20%;
     z-index: 300;
-    width: 88%;
+    width: 95%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
   }
 
   .photo {
