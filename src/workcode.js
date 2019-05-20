@@ -47,10 +47,11 @@ export default class Code extends React.Component {
                 href="https://www.spiced-academy.com/"
                 target="_blank"
               >
-                the code bootcamp I went to
+                the code bootcamp
               </a>
             </span>{" "}
-            here in Berlin, I created JobDirecto using React and Node JS.{" "}
+            I went to here in Berlin, I created JobDirecto using React and Node
+            JS.{" "}
             <span>
               <a
                 className="link"
@@ -88,14 +89,15 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            And of course, my personal site. Guess what I used? Haha,{" "}
+            And of course, my personal site. Guess what I used? Haha, yes! React
+            and Node.{" "}
             <span>
               <a
                 className="link"
                 href="https://github.com/Wilfredoo/personal"
                 target="_blank"
               >
-                repo is here.
+                Repo is here.
               </a>
             </span>
           </p>

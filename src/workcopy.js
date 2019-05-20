@@ -30,7 +30,8 @@ export default class Copy extends React.Component {
             I have written copy for landing pages, facebook groups and lots,
             lots of email. <br />
             <br />I got my 2 jobs in NYC cold emailing the founders and a single
-            job post on facebook got me
+            job post on facebook got me interviews with two companies in Berlin
+            (I lost the post but
             <span
               className="link"
               onClick={() =>
@@ -40,8 +41,9 @@ export default class Copy extends React.Component {
               }
             >
               {" "}
-              interviews{" "}
+              this was the result
             </span>
+            ).
             {this.state.showPhoto1 ? (
               <div class="container">
                 <div class="parentofimageandclose">
@@ -62,10 +64,8 @@ export default class Copy extends React.Component {
             ) : (
               true
             )}{" "}
-            with two companies in Berlin.
             <br />
-            <br /> When it comes to creative and strategic writing, I know my
-            ship.
+            <br /> When it comes to effective writing, I know my ship.
           </p>
         </div>
       </div>

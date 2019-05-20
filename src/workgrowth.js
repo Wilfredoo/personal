@@ -38,7 +38,11 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            I grew JobDirecto from 0 to{" "}
+            I grew{" "}
+            <a className="link" href="http://jobdirecto.com/" target="_blank">
+              Jobdirecto
+            </a>{" "}
+            from 0 to{" "}
             <span
               className="link"
               onClick={() =>
@@ -83,8 +87,16 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            I was accountable to get the users for the dating app Jon and I were
-            building. At first I tried{" "}
+            I was accountable to get the beta users for{" "}
+            <a
+              className="link"
+              href="https://play.google.com/store/apps/details?id=colibri.colibri.colibri"
+              target="_blank"
+            >
+              Colibri
+            </a>
+            , the dating app I co-created with Jonathan Poischen. At first I
+            tried by going to{" "}
             <span
               className="link"
               onClick={() =>
@@ -93,7 +105,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              by going to comedy open mics in Berlin{" "}
+              comedy open mics in Berlin{" "}
             </span>
             {this.state.showPhoto2 ? (
               <div class="container">
@@ -115,8 +127,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}{" "}
-            and inviting telling people about the app after doing some jokes on
-            stage. This was fun (for me) but inefficient. Then{" "}
+            and telling people about the app after doing some jokes on stage.
+            This was fun (for me) but inefficient. Then I went to{" "}
             <span
               className="link"
               onClick={() =>
@@ -125,7 +137,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              I went to Tinder and Bumble{" "}
+              Tinder and Bumble{" "}
             </span>
             {this.state.showPhoto3 ? (
               <div class="container">
@@ -160,10 +172,16 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            How I got hundreds of students for my little finance school
-            apruebaEVA back in good old Peru? Lots of emails and a solid
-            facebook page. Nothing fancy, but it did the work and payed the
-            bills.
+            How I got hundreds of students for my little finance school{" "}
+            <a
+              className="link"
+              href="https://www.facebook.com/Aprueba.EVA.upc/"
+              target="_blank"
+            >
+              ApruebaEVA
+            </a>{" "}
+            back in good old Peru? Lots of emails and a responsive facebook
+            page. Nothing fancy, but it did the work and payed the bills.
           </p>
           <div className="references">
             <h5 className="referenceTitle">References</h5>

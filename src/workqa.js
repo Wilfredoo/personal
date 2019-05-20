@@ -36,16 +36,23 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            The CTO taught me all about manual testing here; how to write good
-            features, bugs and test our web app. Shortly after I ended up
-            re-writing{" "}
+            The CTO of{" "}
+            <a
+              className="titleLinks"
+              href="https://www.branchingminds.com/"
+              target="_blank"
+            >
+              Branching Minds
+            </a>
+            taught me the fundamentals of manual testing; how to write features,
+            bugs and test our web app. Shortly after I ended up re-writing our{" "}
             <span className="link">
               <a
                 className="link"
                 href="https://docs.google.com/spreadsheets/d/18CCj6eoYP23h4gbGigPyozV7hHFGo0Wqv8gcND8Z8yQ/edit?usp=sharing"
                 target="_blank"
               >
-                our QA testing document
+                QA testing document
               </a>
             </span>
             .
@@ -61,8 +68,16 @@ export default class QA extends React.Component {
             </a>
           </h4>
           <p>
-            In Dog Parker (now DogSpot), they didnt have a QA protocol in place,
-            so with help of the COO, I created a{" "}
+            In Dog Parker (now{" "}
+            <a
+              className="link"
+              href="https://hellodogspot.com/"
+              target="_blank"
+            >
+              DogsSpot
+            </a>
+            ), they didnt have a QA protocol in place, so with help of the COO,
+            I created a{" "}
             <span className="link">
               <a
                 className="link"
@@ -72,8 +87,8 @@ export default class QA extends React.Component {
                 QA testing document
               </a>
             </span>
-            , which I later used myself to manually test the dog house, mobile
-            app and admin site.
+            , which I later used to manually test the dog house, mobile app and
+            admin site.
           </p>
           <h4>
             <a

@@ -28,9 +28,9 @@ export default class Design extends React.Component {
           <h3>DESIGN</h3>
           <h4 className="titleLinks">Guantes la Pepa</h4>
           <p>
-            I guess the first thing I ever designed were these longboarding
-            gloves for my company Guantes la Pepa. After much prototyping and
-            testing they ended up looking{" "}
+            I guess the first thing I designed were these longboarding gloves
+            for my project Guantes la Pepa. After much prototyping and testing
+            they ended up looking{" "}
             <span
               className="link"
               onClick={() =>
@@ -80,8 +80,15 @@ export default class Design extends React.Component {
             >
               this waiting list
             </a>{" "}
-            to get people to sign in for our dating app Colibri. It wasn't easy
-            but it was certainly fun!
+            to get people to sign in for the dating app I co-created,{" "}
+            <a
+              className="link"
+              href="http://www.colibriapp.de/"
+              target="_blank"
+            >
+              Colibri
+            </a>
+            . It wasn't easy but it was certainly fun!
           </p>
           <h4>
             <a
@@ -93,8 +100,16 @@ export default class Design extends React.Component {
             </a>
           </h4>
           <p>
-            I designed a complex prototype that people didnt use; it was fancy
-            but it was crap. Then I designed this{" "}
+            For my job site{" "}
+            <a
+              className="link"
+              href="http://www.jobdirecto.com/"
+              target="_blank"
+            >
+              JobDirecto
+            </a>
+            , I designed a complex prototype that people didn''t use; it was
+            fancy but it was crap. Then I designed this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">
               simple job board
             </a>{" "}
@@ -103,8 +118,15 @@ export default class Design extends React.Component {
           <h4>Personal Site</h4>
           <p>
             {" "}
-            And of course, I designed my own personal site. Hopefully you dont
-            find it so crappy!
+            And of course, I designed{" "}
+            <a
+              className="link"
+              href="http://www.wilfredocasas.com/"
+              target="_blank"
+            >
+              my personal site
+            </a>
+            . Hopefully you don''t find it so crappy!
           </p>
         </div>
       </div>

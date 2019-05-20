@@ -31,8 +31,8 @@ export class About extends React.Component {
                 where I can learn and do.
               </p>
               <p className="aboutText">
-                Also I've got a few other skills that I can help you with, such
-                as Growth and QA.
+                I've got a few other skills that I can help you with besides
+                code, such as growth hacking and quality assurance.
               </p>{" "}
               <p className="aboutText">Feel welcome to my humble site.</p>
             </div>
