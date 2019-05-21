@@ -351,4 +351,9 @@ h4 {
   #aboutIconSection {
     position: relative;
   }
+
+  .mainTitle {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
