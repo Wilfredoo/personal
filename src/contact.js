@@ -6,6 +6,14 @@ export class Contact extends React.Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    const script = document.createElement("script");
+    script.src =
+      "https://cdn.jsdelivr.net/npm/mailtoui@1.0.2/dist/mailtoui-min.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+
   render() {
     return (
       <div className="modal">
@@ -14,14 +22,16 @@ export class Contact extends React.Component {
         </button>
         <div id="contact">
           <h2>Contact</h2>
+
           <p className="aboutContact">
-            I kept this site simple on purpose.
-            <br /> If you got questions, send me a line to{" "}
-            <span id="email"> me@wilfredocasas.com </span> and we'll get coffee
-            and talk.
+            I kept this site simple on purpose. If you got questions, send me a
+            line to{" "}
+            <a id="email" class="mailtoui" href="mailto:me@wilfredocasas.com">
+              me@wilfredocasas.com
+            </a>{" "}
+            and we'll get coffee and talk.
           </p>
           <p className="aboutContact">
-            <br />
             Also you can invite me to your fancy headquarters ;){" "}
           </p>
         </div>

@@ -73,6 +73,7 @@ body {
 
 #email {
   color: #c21807;
+  text-decoration: none;
 }
 
 .titleLinks:hover {

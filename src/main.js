@@ -75,9 +75,6 @@ export class Main extends React.Component {
       <div className="bg">
         <div className="main">
           <h1 className="mainTitle">Wilfredo Casas</h1>
-          <a class="mailtoui" href="mailto:tony.stark@example.com">
-            Tony
-          </a>
           <a
             className="titleLinks"
             onClick={e => this.handleClickAbout()}
