@@ -25,7 +25,11 @@ export class Contact extends React.Component {
           <p className="aboutContact">
             I kept this site simple on purpose. If you got questions, send me a
             line to{" "}
-            <a id="email" class="mailtoui" href="mailto:me@wilfredocasas.com">
+            <a
+              id="email"
+              class="mailtoui"
+              href="mailto:me@wilfredocasas.com?subject=hi you look pretty badass, can we hire you?"
+            >
               me@wilfredocasas.com
             </a>{" "}
             and we'll get coffee and talk.
