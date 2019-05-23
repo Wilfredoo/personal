@@ -28,7 +28,7 @@ export class Contact extends React.Component {
             <a
               id="email"
               class="mailtoui"
-              href="mailto:me@wilfredocasas.com?subject=hi you look pretty badass, can we hire you?"
+              href="mailto:me@wilfredocasas.com?subject=boy you are looking badass"
             >
               me@wilfredocasas.com
             </a>{" "}
