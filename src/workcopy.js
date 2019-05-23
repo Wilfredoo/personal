@@ -65,7 +65,7 @@ export default class Copy extends React.Component {
               true
             )}{" "}
             <br />
-            <br /> When it comes to effective writing, I know my ship.
+            <br /> When it comes to creative writing, I know my ship.
           </p>
         </div>
       </div>

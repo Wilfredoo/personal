@@ -87,16 +87,15 @@ export default class Growth extends React.Component {
             </a>
           </h4>
           <p>
-            I was accountable to get the beta users for{" "}
+            At first, I tried to get beta testers for{" "}
             <a
               className="link"
               href="https://play.google.com/store/apps/details?id=colibri.colibri.colibri"
               target="_blank"
             >
               Colibri
-            </a>
-            , the dating app I co-created with Jonathan Poischen. At first I
-            tried by going to{" "}
+            </a>{" "}
+            by promoting the app on{" "}
             <span
               className="link"
               onClick={() =>
@@ -105,7 +104,7 @@ export default class Growth extends React.Component {
                 })
               }
             >
-              comedy open mics in Berlin{" "}
+              open mics stages in Berlin{" "}
             </span>
             {this.state.showPhoto2 ? (
               <div class="container">
@@ -127,7 +126,6 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}{" "}
-            and telling people about the app after doing some jokes on stage.
             This was fun (for me) but inefficient. Then I went to{" "}
             <span
               className="link"
@@ -159,8 +157,8 @@ export default class Growth extends React.Component {
             ) : (
               true
             )}
-            to spread the work. This worked better and I got around 200 people
-            to sign in for the app.
+            to spread the word about our app. This worked better and I got
+            around 200 people to sign in to test.
           </p>
           <h4>
             <a
@@ -186,10 +184,10 @@ export default class Growth extends React.Component {
           <div className="references">
             <h5 className="referenceTitle">References</h5>
             <p className="referenceText">
-              Daniel Riaz - daniel.riaz@gmail.com{" "}
+              Daniel Riaz <br /> daniel.riaz@gmail.com{" "}
             </p>
             <p className="referenceText">
-              Jonathan Poischen - jonpoischen@gmail.com
+              Jonathan Poischen <br /> jonpoischen@gmail.com
             </p>
           </div>
         </div>

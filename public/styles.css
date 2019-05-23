@@ -3,6 +3,8 @@ body {
   line-height: 100px;
   margin-left: 10%;
   overflow: scroll;
+  /* font-family: "Istok Web", sans-serif; */
+  font-family: "Vollkorn", serif;
 }
 
 #work,
@@ -11,6 +13,12 @@ body {
 .workArea {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+#contact,
+#about,
+#work {
+  margin-top: 45px;
 }
 
 .aboutText {
@@ -31,7 +39,7 @@ body {
 
 .referenceText {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   text-align: right;
 }
 
@@ -253,8 +261,8 @@ h4 {
 
   .aboutText,
   .aboutContact {
-    font-size: 14.5px;
-    line-height: 26px;
+    font-size: 17.5px;
+    line-height: 30px;
     text-align: center;
   }
 
@@ -263,6 +271,11 @@ h4 {
     font-size: 23px;
     line-height: 60px;
     text-align: center;
+  }
+
+  .titleLinks {
+    font-size: 23px;
+    line-height: 60px;
   }
 
   #aboutIconSection {
@@ -318,6 +331,7 @@ h4 {
 
   .referenceText {
     font-size: 14px;
+    line-height: 25px;
   }
   .references {
     margin-top: 45px;
@@ -359,3 +373,104 @@ h4 {
     font-size: 38px;
   }
 }
+
+/* Dark theme */
+
+.mailtoui-modal {
+  background-color: rgba(250, 250, 250, 0.5);
+  color: white;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.mailtoui-modal-head {
+  background-color: white;
+}
+
+.mailtoui-modal-title {
+  color: black;
+  font-size: 30px;
+}
+.mailtoui-modal-close:hover {
+  color: white;
+}
+
+.mailtoui-modal-body {
+  background-color: white;
+  border-radius: 0px;
+  width: 800px;
+  font-family: "Vollkorn", serif;
+}
+
+.mailtoui-button-content {
+  background-color: white;
+  color: black;
+}
+
+.mailtoui-button-content {
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  font-size: 30px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 50px;
+}
+
+.mailtoui-button-copy {
+  height: 110px;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  font-size: 30px;
+  border-color: black;
+  border-style: solid;
+  width: 200px;
+}
+
+.mailtoui-email-address {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+  height: 110px;
+  font-size: 30px;
+  /* padding-top: 0px;
+  padding-bottom: 30px; */
+  text-align: center;
+  border-radius: 0px;
+  line-height: 60px;
+}
+
+.mailtoui-button:focus .mailtoui-button-content {
+  background-color: white;
+  color: black;
+}
+
+.mailtoui-button-content:hover,
+.mailtoui-button-content:focus {
+  background-color: white;
+  color: black;
+}
+
+.mailtoui-modal-close:focus,
+.mailtoui-modal-close:hover {
+  color: pink;
+}
+.mailtoui-button-copy:hover {
+  background-color: white;
+  color: black;
+}
+
+.mailtoui-button-copy:focus {
+  background-color: black;
+  color: white;
+}
+
+#mailtoui-button-2,
+#mailtoui-button-4 {
+  display: none;
+}
+
+/* End dark theme */

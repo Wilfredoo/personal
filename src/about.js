@@ -26,9 +26,9 @@ export class About extends React.Component {
               <p className="aboutText">
                 I'm looking for a{" "}
                 <span id="juniorPosition">
-                  junior position as a full stack web developer in a small team{" "}
+                  junior position as a full stack web developer{" "}
                 </span>{" "}
-                where I can learn and do.
+                in a small team where I can learn and do.
               </p>
               <p className="aboutText">
                 I've got a few other skills that I can help you with besides

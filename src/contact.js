@@ -5,7 +5,6 @@ export class Contact extends React.Component {
     super(props);
     this.state = {};
   }
-
   componentDidMount() {
     const script = document.createElement("script");
     script.src =

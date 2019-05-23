@@ -40,14 +40,14 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            For my final project at{" "}
+            For my final project at the{" "}
             <span>
               <a
                 className="link"
                 href="https://www.spiced-academy.com/"
                 target="_blank"
               >
-                the code bootcamp
+                code bootcamp
               </a>
             </span>{" "}
             I went to here in Berlin, I created JobDirecto using React and Node
@@ -103,9 +103,12 @@ export default class Code extends React.Component {
           </p>
           <div className="references">
             <h4 className="referenceTitle"> References:</h4>
-            <p className="referenceText">Kristian Hamilton +44 77 0723 1474 </p>
             <p className="referenceText">
-              Jonathan Poischen - jonpoischen@gmail.com{" "}
+              Kristian Hamilton
+              <br /> +44 77 0723 1474{" "}
+            </p>
+            <p className="referenceText">
+              Jonathan Poischen <br /> jonpoischen@gmail.com{" "}
             </p>
           </div>
         </div>

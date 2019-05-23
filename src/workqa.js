@@ -38,14 +38,15 @@ export default class QA extends React.Component {
           <p>
             The CTO of{" "}
             <a
-              className="titleLinks"
+              className="link"
               href="https://www.branchingminds.com/"
               target="_blank"
             >
               Branching Minds
-            </a>
+            </a>{" "}
             taught me the fundamentals of manual testing; how to write features,
-            bugs and test our web app. Shortly after I ended up re-writing our{" "}
+            bugs and test our web app. Shortly afterwards, I ended up re-writing
+            our{" "}
             <span className="link">
               <a
                 className="link"
@@ -117,15 +118,15 @@ export default class QA extends React.Component {
               <h5 className="referenceTitle"> References:</h5>
               <p className="referenceText">
                 {" "}
-                Todd Schechter - todd@dogspot.com
+                Todd Schechter <br /> todd@dogspot.com
               </p>
               <p className="referenceText">
                 {" "}
-                William Farrell - will@branchingminds.com{" "}
+                William Farrell <br /> will@branchingminds.com{" "}
               </p>
               <p className="referenceText">
                 {" "}
-                Jonathan Poischen - jonpoischen@gmail.com{" "}
+                Jonathan Poischen <br /> jonpoischen@gmail.com{" "}
               </p>
             </div>
           </p>

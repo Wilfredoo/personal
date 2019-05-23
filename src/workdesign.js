@@ -115,7 +115,7 @@ export default class Design extends React.Component {
             </a>{" "}
             that people loved. Oh, the world...
           </p>
-          <h4>Personal Site</h4>
+          <h4 className="titleLinks">Personal Site</h4>
           <p>
             {" "}
             And of course, I designed{" "}

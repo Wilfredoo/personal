@@ -70,6 +70,33 @@ export class Main extends React.Component {
     this.setState({ showContact: false });
   }
 
+  handleDidCopy() {
+    console.log("Copied content");
+    this.setState({
+      pop: "clip-pop"
+    });
+  }
+  handleMouseOut() {
+    if (this.state && this.state.pop) {
+      this.setState({
+        pop: null
+      });
+    }
+  }
+  handleCopy() {
+    const range = document.createRange();
+    const selection = window.getSelection();
+    range.selectNode(this.sample);
+    selection.empty();
+    selection.addRange(range);
+
+    if (document.execCommand("copy")) {
+      this.handleDidCopy();
+    } else {
+      console.log("Copy failed");
+    }
+  }
+
   render() {
     return (
       <div className="bg">
@@ -83,6 +110,7 @@ export class Main extends React.Component {
             About me
           </a>
           <br />
+
           <a
             className="titleLinks"
             onClick={e => this.setModal("Work")}
