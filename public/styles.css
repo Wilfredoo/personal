@@ -224,7 +224,7 @@ body {
   -webkit-scrollbarwidth: 0px -webkit-scrollbar-track-piece;
   background-color: transparent;
   -webkit-border-radius: 6px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .workContent {
