@@ -1,4 +1,4 @@
- body {
+body {
   font-size: 50px;
   line-height: 100px;
   margin-left: 10%;
@@ -145,8 +145,8 @@
 #siblingDiv {
   transform: translate(-50%, -50%);
   position: fixed;
-  height: 600%;
-  width: 600%;
+  height: 100%;
+  width: 200%;
   background-color: black;
   opacity: 0.00000001;
 }
@@ -237,7 +237,6 @@
   padding-top: 50px;
   padding-right: 5%;
   margin-bottom: 30px;
-
 }
 
 .link {
@@ -341,7 +340,6 @@ h4 {
     margin-top: 45px;
     margin-right: 10px;
     margin-bottom: 25px;
-
   }
 
   .aboutTextSection {
@@ -465,7 +463,7 @@ h4 {
 
 .mailtoui-modal-close:focus,
 .mailtoui-modal-close:hover {
-  color: pink;
+  color: #c21807;
 }
 .mailtoui-button-copy:hover {
   background-color: white;
@@ -481,5 +479,3 @@ h4 {
 #mailtoui-button-4 {
   display: none;
 }
-
-/* End dark theme */ */
