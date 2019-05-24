@@ -1,10 +1,14 @@
-body {
+ body {
   font-size: 50px;
   line-height: 100px;
   margin-left: 10%;
   overflow: scroll;
   /* font-family: "Istok Web", sans-serif; */
   font-family: "Vollkorn", serif;
+}
+
+.references {
+  margin-bottom: 35px;
 }
 
 #work,
@@ -331,6 +335,8 @@ h4 {
   .references {
     margin-top: 45px;
     margin-right: 10px;
+    margin-bottom: 25px;
+
   }
 
   .aboutTextSection {
@@ -470,4 +476,4 @@ h4 {
   display: none;
 }
 
-/* End dark theme */
+/* End dark theme */ */
