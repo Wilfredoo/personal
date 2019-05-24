@@ -108,7 +108,7 @@ export default class Design extends React.Component {
             >
               JobDirecto
             </a>
-            , I designed a complex prototype that people didn''t use; it was
+            , I designed a complex prototype that people didn't use; it was
             fancy but it was crap. Then I designed this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">
               simple job board

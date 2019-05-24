@@ -21,7 +21,6 @@ export class Contact extends React.Component {
         </button>
         <div id="contact">
           <h2>Contact</h2>
-
           <p className="aboutContact">
             I kept this site simple on purpose. If you got questions, send me a
             line to{" "}
