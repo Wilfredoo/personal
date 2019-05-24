@@ -125,8 +125,8 @@ export default class Growth extends React.Component {
               </div>
             ) : (
               true
-            )}{" "}
-            This was fun (for me) but inefficient. Then I went to{" "}
+            )}
+            . This was fun (for me) but inefficient. Then I went to{" "}
             <span
               className="link"
               onClick={() =>

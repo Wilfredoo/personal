@@ -29,8 +29,8 @@ export default class Design extends React.Component {
           <h4 className="titleLinks">Guantes la Pepa</h4>
           <p>
             I guess the first thing I designed were these longboarding gloves
-            for my project Guantes la Pepa. After much prototyping and testing
-            they ended up looking{" "}
+            for my project Guantes la Pepa. After much prototyping they ended up
+            looking{" "}
             <span
               className="link"
               onClick={() =>
