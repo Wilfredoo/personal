@@ -68,7 +68,7 @@ export default class Code extends React.Component {
               href="https://www.colibriapp.de"
               target="_blank"
             >
-              Waitlist for Colibri
+              Waitlist
             </a>
           </h4>
           <p>

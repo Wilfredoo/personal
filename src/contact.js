@@ -27,11 +27,11 @@ export class Contact extends React.Component {
             <a
               id="email"
               class="mailtoui"
-              href="mailto:me@wilfredocasas.com?subject=boy you are looking badass"
+              href="mailto:me@wilfredocasas.com?subject=can we hire you"
             >
               me@wilfredocasas.com
             </a>{" "}
-            and we'll get coffee and talk.
+            so we can get coffee and talk.
           </p>
           <p className="aboutContact">
             Also you can invite me to your fancy headquarters ;){" "}

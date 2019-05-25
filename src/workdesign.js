@@ -100,16 +100,9 @@ export default class Design extends React.Component {
             </a>
           </h4>
           <p>
-            For my job site{" "}
-            <a
-              className="link"
-              href="http://www.jobdirecto.com/"
-              target="_blank"
-            >
-              JobDirecto
-            </a>
-            , I designed a complex prototype that people didn't use; it was
-            fancy but it was crap. Then I designed this{" "}
+            For my job site JobDirecto , I designed a complex prototype that
+            people didn't use; it was fancy but it was crap. Then I designed
+            this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">
               simple job board
             </a>{" "}
@@ -118,15 +111,8 @@ export default class Design extends React.Component {
           <h4 className="titleLinks">Personal Site</h4>
           <p>
             {" "}
-            And of course, I designed{" "}
-            <a
-              className="link"
-              href="http://www.wilfredocasas.com/"
-              target="_blank"
-            >
-              my personal site
-            </a>
-            . Hopefully you don''t find it so crappy!
+            And of course, I designed this site you are looking at now.
+            Hopefully you don't find it so crappy!
           </p>
         </div>
       </div>
