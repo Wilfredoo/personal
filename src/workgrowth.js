@@ -75,7 +75,7 @@ export default class Growth extends React.Component {
             )}
             without spending a single euro on ads. How? Building a solid
             community on Facebook and scraping thousands of emails from
-            Craigslist for email marketing.
+            Craigslist for email marketing. Easy peasy.
           </p>
           <h4>
             <a
