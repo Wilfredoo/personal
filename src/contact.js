@@ -31,7 +31,7 @@ export class Contact extends React.Component {
             >
               me@wilfredocasas.com
             </a>{" "}
-            so we can get meet and talk.
+            so we can meet and talk.
           </p>
           <p className="aboutContact">
             Also you can invite me to your fancy headquarters ;){" "}

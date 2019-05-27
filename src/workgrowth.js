@@ -171,15 +171,9 @@ export default class Growth extends React.Component {
           </h4>
           <p>
             How I got hundreds of students for my little finance school{" "}
-            <a
-              className="link"
-              href="https://www.facebook.com/Aprueba.EVA.upc/"
-              target="_blank"
-            >
-              ApruebaEVA
-            </a>{" "}
-            back in good old Peru? Lots of emails and a responsive facebook
-            page. Nothing fancy, but it did the work and payed the bills.
+            ApruebaEVA back in good old Peru? Lots of emails and a responsive
+            facebook page. Nothing fancy, but it did the work and payed the
+            bills.
           </p>
           <div className="references">
             <h5 className="referenceTitle">References</h5>
