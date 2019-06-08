@@ -29,9 +29,9 @@ export default class Copy extends React.Component {
           <p>
             I have written copy for landing pages, facebook groups and lots,
             lots of email. <br />
-            <br />I got my 2 jobs in NYC cold emailing the founders and a single
-            job post on facebook got me interviews with two companies in Berlin
-            (I lost the post but
+            <br />I got my 2 jobs in NYC through a cold email and a single job
+            post on facebook got me interviews with two companies in Berlin (I
+            lost the post but
             <span
               className="link"
               onClick={() =>

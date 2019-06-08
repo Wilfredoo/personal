@@ -50,8 +50,10 @@ export default class Code extends React.Component {
                 code bootcamp
               </a>
             </span>{" "}
-            I went to here in Berlin, I created JobDirecto using React and Node
-            JS.{" "}
+            I went to here in Berlin, I created a job board using React and Node
+            JS. It is used by thousands of people in NYC and recently integrated
+            Stripe so I at the moment I am in the process of integrating Stripe
+            so I can accept payments with it.{" "}
             <span>
               <a
                 className="link"
@@ -72,14 +74,16 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            I created this simple waiting list using React and Node JS,{" "}
+            I created a waiting list for a dating app using React and Node JS.
+            People can leave their info on the site and get random curated
+            poems.{" "}
             <span>
               <a
                 className="link"
                 href="https://github.com/Wilfredoo/waitlist"
                 target="_blank"
               >
-                check out the repo!
+                Check out the repo!
               </a>
             </span>
           </p>
@@ -89,8 +93,8 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            And of course, my personal site. Guess what I used? Haha, yes! React
-            and Node.{" "}
+            And of course, I did my personal site (the one you are looking at
+            now). Also made with React and Node JS.{" "}
             <span>
               <a
                 className="link"
