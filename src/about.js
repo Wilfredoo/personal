@@ -53,6 +53,16 @@ export class About extends React.Component {
                 <i class="fa fa-linkedin aboutIcons" />
               </a>
             </div>
+            <p className="myCV">
+              For a more traditional view of my work experience, check out{" "}
+              <a
+                className="link"
+                href="https://drive.google.com/file/d/1fl1KXtDJ31oBTauQGxUrE3G0MzmjSNI1/view?usp=sharing"
+                target="_blank"
+              >
+                my CV{" "}
+              </a>
+            </p>
           </div>
         </form>
       </div>

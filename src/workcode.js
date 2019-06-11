@@ -51,9 +51,8 @@ export default class Code extends React.Component {
               </a>
             </span>{" "}
             I went to here in Berlin, I created a job board using React and Node
-            JS. It is used by thousands of people in NYC and recently integrated
-            Stripe so I at the moment I am in the process of integrating Stripe
-            so I can accept payments with it.{" "}
+            JS. It is used by thousands of people in NYC and I recently
+            integrated Stripe so I can accept payments with it.{" "}
             <span>
               <a
                 className="link"
@@ -74,9 +73,9 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            I created a waiting list for a dating app using React and Node JS.
-            People can leave their info on the site and get random curated
-            poems.{" "}
+            I created a waiting list for Colibri, the dating app I co-created,
+            using React and Node JS. People can leave their info on the site and
+            get random curated poems.{" "}
             <span>
               <a
                 className="link"
@@ -93,8 +92,8 @@ export default class Code extends React.Component {
             </a>
           </h4>
           <p>
-            And of course, I did my personal site (the one you are looking at
-            now). Also made with React and Node JS.{" "}
+            And of course, I built my own site (the one you are looking at now).
+            Also made with React and Node JS.{" "}
             <span>
               <a
                 className="link"

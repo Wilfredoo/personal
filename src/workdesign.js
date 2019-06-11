@@ -29,8 +29,8 @@ export default class Design extends React.Component {
           <h4 className="titleLinks">Guantes la Pepa</h4>
           <p>
             I guess the first thing I designed were these longboarding gloves
-            for my project Guantes la Pepa. After much prototyping they ended up
-            looking{" "}
+            for my first business, Guantes la Pepa. After much prototyping they
+            ended up looking{" "}
             <span
               className="link"
               onClick={() =>
@@ -100,7 +100,7 @@ export default class Design extends React.Component {
             </a>
           </h4>
           <p>
-            For my job site JobDirecto , I designed a complex prototype that
+            For my job site JobDirecto, I designed a complex prototype that
             people didn't use; it was fancy but it was crap. Then I designed
             this{" "}
             <a className="link" href="http://jobdirecto.com/" target="_blank">

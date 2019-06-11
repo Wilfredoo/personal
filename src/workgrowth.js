@@ -27,7 +27,6 @@ export default class Growth extends React.Component {
 
         <div className="workContent">
           <h3> GROWTH </h3>
-
           <h4>
             <a
               className="titleLinks"
