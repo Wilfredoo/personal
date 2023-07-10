@@ -41,7 +41,7 @@ function Main() {
             <img className="avatar" src={`/wilfredo${randomBinary}.png`} />
           </div>
           <div className="text-container">
-            <h1 id="title">tes test test 17.39</h1>
+            <h1 id="title">Wilfredo Casas</h1>
 
             {randomTitle !== "null" && (
               <p className="subtitle">
@@ -91,11 +91,11 @@ function Main() {
             </a>
           </div>
         </div>
-        {randomIcon && (
+        {/* {randomIcon && (
           <a className="projects" href="/projects" target="_blank">
             <img className="projectsIcon" src={`/projects/${randomIcon}.svg`} />
           </a>
-        )}
+        )} */}
         <footer id="footer">
           <div>
             <p>
