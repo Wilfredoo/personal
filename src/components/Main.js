@@ -41,7 +41,7 @@ function Main() {
             <img className="avatar" src={`/wilfredo${randomBinary}.png`} />
           </div>
           <div className="text-container">
-            <h1 id="title">Wilfredo Casas</h1>
+            <h1 id="title">Wilfredo Casas test</h1>
 
             {randomTitle !== "null" && (
               <p className="subtitle">
