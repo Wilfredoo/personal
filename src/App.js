@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={"https://wilfredocasas.com/"}>
         <Route exact path="/">
           <Main />
         </Route>
