@@ -6,7 +6,8 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <BrowserRouter basename={"https://wilfredocasas.com/"}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        {console.log("process env?", process.env.PUBLIC_URL)}
         <Route exact path="/">
           <Main />
         </Route>
