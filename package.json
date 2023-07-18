@@ -5,7 +5,7 @@
     "node": "16.18.0"
   },
   "private": true,
-  "homepage": "https://wilfredocasas.com",
+  "homepage": "https://wilfredocasas.com/home",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
